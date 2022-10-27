@@ -1,5 +1,9 @@
+:root{
+    --header-color: ##000000;
+}
 body{
     font-size: 10px;
+    background-color: var(--header-color);
 
 }
 
