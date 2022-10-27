@@ -1,21 +1,242 @@
+:root{
+    --dosis-font: 'Dosis', sans-serif;
+    --playfair-font: 'Playfair Display', serif;
+}
 body{
     font-size: 10px;
-
 }
-
 /*==========ATOMIC SECTION==========*/
 
 /*==========SMARTPHONES==========*/
 @media (min-width: 576px) {
+    h2.admin-profile-title{
+        font-family: var(--dosis-font);
+        font-size: 3em;
+        font-weight: 500;
+    }
+    p.admin-profile-role-text{
+        font-family: var(--playfair-font);
+        font-size: 1.5em;
+    }
+
+    p.admin-info-card-number{
+        font-family: var(--dosis-font);
+        font-size: 3em;
+        font-weight: bold;
+    }
+    p.admin-info-card-text{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+    }
+
+    p.gratuate-list{
+        font-family: var(--dosis-font);
+    }
+    p.graduates-list-title{
+        font-size: 3em;
+    }
+    p.gratuates-list-text{
+        font-size: 2.5em;
+    }
     
+    p.chart-text{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+    p.chart-title{
+        font-family: var(--dosis-font);
+        font-weight: bold;
+        font-size: 3em;
+    }
+
+    p.bar-chart-title{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+    p.bar-chart-dates{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    p.bar-chart-numbers{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    p.animic-evolution-title{
+        font-size: 2.5em;
+        font-weight: 500;
+        font-family: var(--dosis-font);
+    }
+    p.animic-evolution-porsentage{
+        font-size: 4.5em;
+        font-weight: bold;
+        font-family: var(--dosis-font);
+    }
+
+    p.activity-chart-title{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+    p.activity-chart-subtitle{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    p.activity-chart-text{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    p.activity-chart-number{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    p.pie-chart-title{
+        font-family: var(--dosis-font);
+        font-size: 1.7em;
+        font-weight: bold;
+    }
+    p.pie-chart-n2{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+        font-weight: 500;
+    }
 }
 
 /*==========TABLETS==========*/
 @media (min-width: 768px) {
+    h2.admin-profile-title{
+        font-size: 5em;
+    }
+    p.admin-profile-role-text{
+        font-size: 2.2em;
+    }
+
+    p.admin-info-card-number{
+        font-size: 4em;
+    }
+    p.admin-info-card-text{
+        font-size: 2em;
+    }
+
+    p.graduates-list-title{
+        font-size: 4em;
+    }
+    p.gratuates-list-text{
+        font-size: 3.5em;
+    }
+
+    p.chart-text{
+        font-size: 3.5em;
+        font-weight: 500;
+    }
+    p.chart-title{
+        font-size: 4em;
+    }
+
+    p.bar-chart-title{
+        font-size: 3.5em;
+    }
+    p.bar-chart-dates{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    p.bar-chart-numbers{
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    p.animic-evolution-title{
+        font-size: 3em;
+    }
+    p.animic-evolution-porsentage{
+        font-size: 4.5em;
+    }
+
+    p.activity-chart-title{
+        font-size: 2.5em;
+    }
+    p.activity-chart-subtitle{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    p.activity-chart-text{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+    p.activity-chart-number{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    p.pie-chart-n1{
+        font-size: 1.7em;
+    }
+    p.pie-chart-n2{
+        font-size: 1.7em;
+    }
+
 
 }
 
 /*==========DESKTOP==========*/
 @media (min-width: 992px) {
+    h2.admin-profile-title{
+        font-size: 3.5em;
+    }
+    p.admin-profile-role-text{
+        font-size: 2em;
+    }
 
+    p.admin-info-card-number{
+        font-family: var(--dosis-font);
+        font-size: 3em;
+    }
+    p.admin-info-card-text{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+    }
+
+    p.graduates-list-title{
+        font-size: 3em;
+    }
+    p.gratuates-list-text{
+        font-size: 2em;
+    }
+
+    p.chart-text{
+        font-size: 3em;
+    }
+    p.chart-title{
+        font-size: 3.5em;
+    }
+
+    p.bar-chart-title{
+        font-size: 2.5em;
+    }
+    p.bar-chart-dates{
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+    p.bar-chart-numbers{
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    p.animic-evolution-title{
+        font-size: 3em;
+    }
+    p.animic-evolution-porsentage{
+        font-size: 7em;
+    }
 }
