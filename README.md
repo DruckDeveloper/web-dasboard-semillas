@@ -44,8 +44,14 @@ Para ello, plantea que se desarrolle una aplicación web con varios dashboard, q
 
 
 # Prototipos.
-El diseño de los prototipos fue realizado con el manual de imagen suministrado por el cliente: https://drive.google.com/drive/folders/1LeFh4-b6gbr-dchM9CjCX2bLmb0a7sOT
+
+El diseño de los prototipos fue realizado con el manual de imagen suministrado por el cliente: 
+
+https://drive.google.com/drive/folders/1LeFh4-b6gbr-dchM9CjCX2bLmb0a7sOT
+
+
 Se asignaron tres colores a las mediciones de los dashboard para que fuera mas facil su comprensión, como lo son: rojo (#FB6535), amarillo (#F9B93E) y verde (#1F8D16).
 Se creo una sección al principio de la pagina para la version movil y tablet y en el costado derecho debajo del perfil para la versión de escritorio que contiene el listado de los diplomados actuales de la fundación, donde se encuentran los listados de los estudiantes activos para asi brindar comodidad al usuario a la hora de seleccionar el estudiante a evaluar.
 La version movil y de tablet contienen menus en la parte inferior siempre visibles para su navegación, mientras que en la version de escritorio es un menu flotante a la derecha.
+
 https://www.figma.com/file/Jvj11uJ3PhRmnovkH3MHAM/Semillas---DASHBOARD?node-id=35%3A214
