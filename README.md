@@ -6,4 +6,3 @@ La Fundación Semillas, que ofrece diplomados en sostenibilidad del medio ambien
 
 Para ello, plantea que se desarrolle una aplicación web con varios dashboard, que muestren indicadores sobre las emociones que un alumno puede llegar a sentir durante el desarrollo de la formación por cada actividad que realizan.
 
-Fuiste uno de los seleccionados para presentar una propuesta, debes revisar los requerimientos para que cumpla con el MVP que desea la fundación.
