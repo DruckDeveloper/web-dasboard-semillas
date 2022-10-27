@@ -1,14 +1,21 @@
-/*==========ATOMS SECTION==========*/
+body{
+    font-size: 10px;
 
+}
 
+/*==========ATOMIC SECTION==========*/
 
+/*==========SMARTPHONES==========*/
+@media (min-width: 576px) {
+    
+}
 
+/*==========TABLETS==========*/
+@media (min-width: 768px) {
 
+}
 
-/*==========MOLECULES SECTION==========*/
+/*==========DESKTOP==========*/
+@media (min-width: 992px) {
 
-
-
-
-
-/*===========ORGANISMS SECTION==========*/
+}
