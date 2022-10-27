@@ -40,3 +40,8 @@ Para ello, plantea que se desarrolle una aplicación web con varios dashboard, q
 -Se debe entregar un prototipo de una aplicacion web que le permite al usuario (estudiante) organizar sus actividades en general con varios dashboard, que muestren indicadores sobre las emociones que un alumno puede llegar a sentir durante el desarrollo de la formación por cada actividad que realizan.
 
 -Realizar una demo para sustentar el proyecto
+
+
+
+# Prototipos.
+https://www.figma.com/file/Jvj11uJ3PhRmnovkH3MHAM/Semillas---DASHBOARD?node-id=35%3A214
