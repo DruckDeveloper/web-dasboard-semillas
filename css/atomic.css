@@ -108,6 +108,43 @@ body{
         font-size: 1.5em;
         font-weight: 500;
     }
+
+    p.student-subject-title{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    p.student-task-title{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: 500;
+    }    
+    p.student-task-text{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+        font-weight: 400;
+    }
+    p.student-task-aproved{
+        font-family: var(--dosis-font);
+        font-size: 2em;
+        font-weight: bold;
+    }
+    p.student-task-reproved{
+        font-family: var(--dosis-font);
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    p.footer-button{
+        font-family: var(--dosis-font);
+        font-size: 2em;
+        font-weight: 500;
+    }
+    p.copyright-text{
+        font-family: var(--dosis-font);
+        font-size: 1.5em;
+        font-weight: 400;
+    }
 }
 
 /*==========TABLETS==========*/
@@ -182,7 +219,42 @@ body{
         font-size: 1.7em;
     }
 
+    p.student-subject-title{
+        font-family: var(--dosis-font);
+        font-size: 4em;
+        font-weight: bold;
+    }
+    p.student-task-title{
+        font-family: var(--dosis-font);
+        font-size: 3.5em;
+        font-weight: 500;
+    }    
+    p.student-task-text{
+        font-family: var(--dosis-font);
+        font-size: 2em;
+        font-weight: 400;
+    }
+    p.student-task-aproved{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    p.student-task-reproved{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: bold;
+    }
 
+    p.footer-button{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+    p.copyright-text{
+        font-family: var(--dosis-font);
+        font-size: 2em;
+        font-weight: 400;
+    }
 }
 
 /*==========DESKTOP==========*/
@@ -261,5 +333,40 @@ body{
         font-size: 2.5em;
     }
 
-    
+    p.student-subject-title{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+    p.student-task-title{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: 500;
+    }    
+    p.student-task-text{
+        font-family: var(--dosis-font);
+        font-size: 1.2em;
+        font-weight: 400;
+    }
+    p.student-task-aproved{
+        font-family: var(--dosis-font);
+        font-size: 2em;
+        font-weight: bold;
+    }
+    p.student-task-reproved{
+        font-family: var(--dosis-font);
+        font-size: 2em;
+        font-weight: bold;
+    }
+
+    p.footer-button{
+        font-family: var(--dosis-font);
+        font-size: 3em;
+        font-weight: 500;
+    }
+    p.copyright-text{
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: 400;
+    }
 }
