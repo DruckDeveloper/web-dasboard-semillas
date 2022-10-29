@@ -24,9 +24,8 @@
 
     </section>
     <section id="colors-section">
-
     </section>
-    <section id="conts-section">
+    < id="conts-section">
         <h2 class="admin-profile-title">María Daza Torres</h2>
         <p class="admin-profile-role-text">Administrador (a) - Psicólogo (a)</p>
         
@@ -37,10 +36,11 @@
         <p class="admin-info-card-number">21</p>
         <p class="admin-info-card-text">Tareas Calificadas</p>
 
+        <!--TEXTOS DIPLOMADOS Y ESTUDIANTES-->
         <p class="gratuate-list graduates-list-title">Lista de diplomados</p>
         <p class="gratuate-list gratuates-list-text">Gestión y Derecho Ambiental</p>
         <p class="gratuate-list gratuates-list-text">Diego Felipe Rodriguez</p>
-        <p class="gratuate-list gratuates-list-text">Dylan Ramirez Colombia</p>
+        <p class="gratuate-list gratuates-list-text">Dylan Leonardo Ramirez</p>
         <p class="gratuate-list gratuates-list-text">Evaluación de Impacto<br />Ambiental</p>
 
         <p class="chart-text">Promedio de estado anímico de:</p>
@@ -81,6 +81,7 @@
         <p class="pie-chart-n2">20%</p>
         <p class="pie-chart-n2">65%</p>
 
+        <!--TEXTOS PARA LA SECCION DE TAREAS APROBADAS Y REPROBADAS-->
         <p class="student-subject-title">DERECHO AMBIENTAL</p>
         <p class="student-task-title">Consulta Principio de<br/>organización del estado</p>
         <p class="student-task-text">
@@ -122,12 +123,62 @@
         <p class="student-subject-title">PROCEDIMIENTOS<br />SANCIONATORIOS</p>
         <p class="student-subject-title">JUSTICIA AMBIENTAL</p>
         
+        <!--TEXTOS DEL FOOTER-->
         <p class="footer-button">Diplomados</p>
         <p class="footer-button">Estadisticas</p>
         <p class="footer-button">Contacto</p>
         <p class="copyright-text"> ©  2022  Fundacion semillas     Diseñado por DDM</p>
 
-        <p class="hola">hola</p>
-    </section>
+        <!--Contenedor principal para seccion de tareas-->
+        <div class="task-cards-section">
+            <div class="task-cards-container">
+                
+            </div>
+        </div>
+        <!--Recuadros para cada tarea del diplomado-->
+        <div class="task-card">
+            <div class="task-card-line"></div>
+        </div>
+        <div class="task-card">
+            <div class="task-card-line"></div>
+        </div>
+        <div class="task-card">
+            <div class="task-card-line"></div>
+        </div>
+        <div class="task-card">
+            <div class="task-card-line"></div>
+        </div>
+
+        <!--Cards para los titulos de asinaturas-->
+        <div class="cards-asinatura-diplomado"></div>
+        <div class="cards-asinatura-diplomado"></div>
+        <div class="cards-asinatura-diplomado"></div>
+        <div class="cards-asinatura-diplomado"></div>
+
+        <form class="students-selector">
+            <label for="lista-diplomados">
+                <p class="gratuate-list graduates-list-title">Lista de diplomados</p>
+            </label><br />
+            <select name="diplomados-selector">
+                <option value="diplomado-1">
+                    <p class="gratuate-list gratuates-list-text">Gestión y Derecho Ambiental</p>
+                </option>
+                <option value="diplomado-2">
+                    <p class="gratuate-list gratuates-list-text">Evaluación de Impacto<br />Ambiental</p>
+                </option>
+            </select>
+            <label for="lista-estudiantes">
+                <p class="gratuate-list graduates-list-title">Estudiantes del diplomado</p>
+            </label><br />
+            <select name="estudiantes-selector">
+                <option value="student-1">
+                    <p class="gratuate-list gratuates-list-text">Diego Felipe Rodriguez</p>
+                </option>
+                <option value="student-2">
+                    <p class="gratuate-list gratuates-list-text">Dylan Leonardo Ramirez</p>
+                </option>
+            </select>
+        </form>
+
 </body>
 </html>

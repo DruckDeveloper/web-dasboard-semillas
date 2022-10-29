@@ -145,6 +145,60 @@ body{
         font-size: 1.5em;
         font-weight: 400;
     }
+
+    /*Student task rate*/
+    div.task-cards-section{
+        width: 100%;
+        height: 1113px;
+        background-color: #69BF97;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+    }
+    div.task-cards-container{
+        width: 95%;
+        height: 95%;
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+    div.task-card{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 190px;
+        background-color: #ffffff;
+        border: 1px solid #000000;
+        margin: 10px 0;
+        position: relative;
+    }
+    div.task-card-line{
+        height: 2px;
+        width: 90%;
+        background-color: #000000;
+        position: absolute;
+        top: 90%;
+    }
+    div.cards-asinatura-diplomado{
+        width: 95%;
+        height: 8.6em;
+        border: 0.2em solid #000000;
+    }
+
+    form.students-selector{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-color: #69BF97;
+        height: 44em;
+    }
+    form.students-selector select{
+        height: 20%;
+        width: 90%;
+        font-size: 4em;
+        font-weight: bold;
+    }
 }
 
 /*==========TABLETS==========*/
@@ -368,5 +422,9 @@ body{
         font-family: var(--dosis-font);
         font-size: 2.5em;
         font-weight: 400;
+    }
+
+    div.task-cards-section{
+        width: 50%;
     }
 }
