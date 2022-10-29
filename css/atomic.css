@@ -193,6 +193,11 @@ body{
         background-color: #69BF97;
         height: 44em;
     }
+    /* form.students-selector label{
+        align-self: flex-start;
+        font-family: var(--dosis-font);
+
+    } */
     form.students-selector select{
         height: 20%;
         width: 90%;
