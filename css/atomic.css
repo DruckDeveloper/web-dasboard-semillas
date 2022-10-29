@@ -1,21 +1,213 @@
+:root{
+    --color_circgraph1: #F9B93E;
+    --color_circgraph2:#1F8D16;
+    --color_circgraph3:#FB6535;
+}
 body{
     font-size: 10px;
+}
+:root{
+    --dosis-font: 'Dosis', sans-serif;
+    --playfair-font: 'Playfair Display', serif;
+}
+/*   ---  FACE   ---   */
+.face{
+    font-size: 2px;
+    width: 45em;
+    height: 25em;
+    border-radius: 50%;
+    background: rgb(245,246,40);
+background: linear-gradient(180deg, rgba(245,246,40,1) 0%, rgba(255,251,147,1) 100%);
+    padding:11em 3em;
+    
+}
+
+.eyes-section{
+
+    display: flex;
+    justify-content: space-between;
+    width: 35em;
+    margin: auto ;
+}
+
+.eye{
+
+    width: 4em;
+    height: 5em;
+    border-radius:50% 50% 0px 0px;
+    border: 2.5em solid #5B5A5A;
+    border-bottom: 0 ;
+    margin:0em 1em;
+}
+.mouth-section{
+    
+    display: flex;
+    justify-content: space-between;
+    width: 45em;
+    margin: auto ;
+    margin-top: 4em;
 
 }
+
+.cheeck{
+    width: 6em;
+    height: 6em;
+    background-color: #FFC0C0;
+    border-radius: 50%;
+}
+.mouth{
+    margin-top: 10%;
+    background-color: #5B5A5A;
+    width: 18em;
+	height: 10em;
+	border-bottom-left-radius: 50% 100%;
+	border-bottom-right-radius: 50% 100%;
+	
+}
+
+.eye-cir{
+     width: 6em;
+    height:9em;
+    background-color: #5B5A5A;
+    border-radius: 50%;
+    border-bottom: 0 ;
+    margin:0em 2em;
+}
+.mouth-rect{
+    margin-top: 10%;
+    background-color: #5B5A5A;
+    width: 18em;
+	height: 2em;	
+}
+.mouth-mad{
+    margin-top: 5%;
+    width: 8em;
+    height: 3em;
+    border-radius:50em 50em 0px 0px;
+    border: 2em solid #5B5A5A;
+    border-bottom: 0 ;
+
+}
+/*   ---  BARRAS   ---   */
+
+.barra-vert{
+    width: 40px ;
+    max-width: 40px;
+    height:300px;
+    border-radius: 7px;
+    background-color: tomato;
+    margin: 0px 10px;
+}
+.barra-hort{
+    width: 270px ;
+    height:27px;
+    max-height:27px;
+    border-radius: 7px;
+    background-color: tomato;
+    margin: 0px 10px;
+}
+/*   ---  CONTENDDOR DE BARRAS   ---   */
+.cont-barra{
+    width: 405px;
+    height: 245px;
+    display: flex;
+    border-radius: 7px;
+    align-items: flex-end;
+    background: rgb(249,250,207);
+    background: linear-gradient(180deg, rgba(249,250,207,1) 0%, rgba(249,250,207,1) 20%, rgba(253,253,239,1) 21%, rgba(253,253,239,1) 40%, rgba(249,250,207,1) 41%, rgba(249,250,207,1) 60%, rgba(253,253,239,1) 61%, rgba(253,253,239,1) 80%, rgba(249,250,207,1) 81%);
+}
+.num-cont-barra{
+    font-family:  var(--dosis-font);
+    font-size: 15px;
+    font-weight: 700;
+    color: #98988F;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    line-height: 0.5;
+}
+
+/*   ---  GRAFICO CIRCULAR  ---   */
+
+.grafico-circ{
+    height: 148px;
+    width: 148px;
+    border-radius: 50%;
+    background-image: conic-gradient(var(--color_circgraph1) 20%,
+                                    var(--color_circgraph2)20% 85%,
+                                    var(--color_circgraph3)85%
+                                    ) ;
+}
+
+/*   ---  ARROW  ---   */
+.flecha{
+    font-size: 10px;
+    width: 5em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.triangle{
+    
+        width: 0; 
+        height: 0; 
+        border-left: 2.5em solid transparent;
+        border-right: 2.5em solid transparent;
+        
+        border-bottom: 2.5em solid green;
+}
+.arrow-abajo{
+    width: 1.5em;
+    height: 2em;
+    background-color: green;
+}
+
+
 
 /*==========ATOMIC SECTION==========*/
 
 /*==========SMARTPHONES==========*/
 @media (min-width: 576px) {
     
+    .barra-vert{
+        width: 40px ;
+        max-width: 40px;
+        height:300px;
+    }
+    .barra-hort{
+        width: 270px ;
+        height:27px;
+        max-height:27px;
+    }
 }
 
 /*==========TABLETS==========*/
 @media (min-width: 768px) {
-
+    
+    .barra-vert{
+        width: 40px ;
+        max-width: 40px;
+        height:300px;
+    }
+    .barra-hort{
+        width: 270px ;
+        height:32px;
+        max-height:32px;
+    }
 }
 
 /*==========DESKTOP==========*/
 @media (min-width: 992px) {
 
+    .barra-vert{
+        width: 43px ;
+        max-width: 43px;
+        height:300px;
+    }
+    .barra-vert{
+        width: 35px ;
+        max-width: 35px;
+        height:300px;
+    }
 }
