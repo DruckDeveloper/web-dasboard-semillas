@@ -1,15 +1,8 @@
-<<<<<<< HEAD
 :root{
     --dosis-font: 'Dosis', sans-serif;
     --playfair-font: 'Playfair Display', serif;
-}
-body{
-    font-size: 10px;
-=======
-
-:root{
-
-/*==========BACKGROUND COLORS==========*/
+    
+    /*==========BACKGROUND COLORS==========*/
     --header-color:#009458;
     --nav-color:#009458;
     --back-general-info: #DDDDDD;
@@ -19,34 +12,30 @@ body{
     --footer-color1: #DDDDDD;
     --footer-color2: #9B9B9B;
 
-/*==========BACKGROUND COLORS==========
-         LINEAS DE FONDO GRAFICA 1*/
+    /*==========BACKGROUND COLORS==========
+        LINEAS DE FONDO GRAFICA 1*/
 
     --Linea-grafica1:#F9FACF;
     --linea-grafica2:#FDFDEF;
 
-/*==========GRAPH COLORS==========*/
+    /*==========GRAPH COLORS==========*/
     --green-color: #1F8D16;
     --orange-color: #F9B93E;
     --red-color: #FB6535;
 
-/*==========COLOR OF EMOTIONS==========*/
+    /*==========COLOR OF EMOTIONS==========*/
     --back-carita:linear-gradient(180deg, #FFF628 0%, #FFFB93 100%);
     --ojos-boca: #5B5A5A;
     --mejillas:#FFC0C0;
-
 }
-
 body{
     font-size: 10px;
     background-color: var(--header-color);
 
->>>>>>> Fernanda
 }
 /*==========ATOMIC SECTION==========*/
 
 /*==========SMARTPHONES==========*/
-<<<<<<< HEAD
 @media (min-width: 576px) {
     h2.admin-profile-title{
         font-family: var(--dosis-font);
@@ -243,7 +232,6 @@ body{
         font-size: 4em;
         font-weight: bold;
     }
-=======
 
 @media (max-width: 576px) {
 
@@ -259,7 +247,6 @@ body{
         width: 396px;
         height: 59px;
         position: absolute;
->>>>>>> Fernanda
 }
    .flechita{
         background-color: #FFFFFF;
@@ -637,4 +624,5 @@ body{
     div.task-cards-section{
         width: 50%;
     }
+}
 }
