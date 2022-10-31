@@ -5,14 +5,92 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/atomic.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!--Adding Dosis font-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <!--Adding Playfair Display font-->
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@200;300;400;500;600;700;800&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
     <section id="faces-section">
 
+        <!--    CARA FELIZ   -->
+
+        <div class="face face1">
+            <div class="eyes-section">
+                <div class="eye"></div>
+                <div class="eye"></div>
+            </div>
+            <div class="mouth-section">
+                <div class="cheeck"></div>
+                <div class="mouth"></div>
+                <div class="cheeck"></div>
+            </div>
+        </div>
+
+        <!--    CARA MEDIO   -->
+        <div class="face face2">
+            <div class="eyes-section">
+                <div class="eye-cir"></div>
+                <div class="eye-cir"></div>
+            </div>
+            <div class="mouth-section">
+                <div class="cheeck"></div>
+                <div class="mouth-rect"></div>
+                <div class="cheeck"></div>
+            </div>
+        </div>
+
+        <!--    CARA TRISTE   -->
+        <div class="face face3">
+            <div class="eyes-section">
+                <div class="eye-cir"></div>
+                <div class="eye-cir"></div>
+            </div>
+            <div class="mouth-section">
+                <div class="cheeck"></div>
+                <div class="mouth-mad"></div>
+                <div class="cheeck"></div>
+            </div>
+        </div>
+
+    
+    
     </section>
     <section id="chart-section">
+        <!--    BARRA VERTICAL  -->
+        <div class="barra-vert"></div>
 
+        <!--    HORIZONTAL  -->
+        <div class="barra-hort"></div>
+
+        <!--    CONTENEDOR DE BARRAS  -->
+        <div class="cont-barra">
+            <div class="num-cont-barra">
+                <br>
+                <p>100%</p>
+                <br>
+                <p>80%</p>
+                <br>
+                <p>60%</p>
+                <br>
+                <p>40%</p>
+                <br>
+                <p>20%</p>
+            </div>
+        </div>
+
+        <!--    GRAFICO CIRCULAR  -->
+        <div class="grafico-circ"></div>
+
+        <!--    GRAFICO FLECHA  -->
+        <div class="flecha">
+            <div class="triangle"></div>
+            <div class="arrow-abajo"></div>
+        </div>
+        
     </section>
     <section id="icons-section">
     </section>
@@ -24,28 +102,196 @@
         </div>
     </div>
    </section>
-   <section class="container.list">
+   <section class="container-list">
+
     <div id="container-listas">
+
         <details class="lista-diplomados">
-            <summary class="list-dip-text">Lista de diplomados</summary>
-                 <div class="flechita"></div>
-                 <div class="flechita2"></div>
+
+             <div class="flechita"></div>
+             <div class="flechita2"></div>
+             <summary class="list-dip-text">Lista de diplomados</summary>
                  <div class="flechita-dip1"></div>
                  <div class="flechita2-dip1"></div>
+
             <details class="diplomado1">
                 <summary class="dip1-text"> Gestion y Derecho Ambiental</summary>
                 <div class="linea-dip"></div>
-                    <div class="estudiante1">Diego Felipe Rodriguez
+                    <div class="estudiante1">
+                        <p class="text-diego">Diego Felipe Rodriguez</p> 
                      <div class="linea-est1"></div>
+                     <div class="img-est">
+                        <img class="img-est1" src="/img/Estudiante-1.png" alt="Foto estudiante 1">
+                     </div>
                     </div>
-                    <div class="estudiante2">Dylan Leonardo Ramirez</div>
+                    <div class="estudiante2">Dylan Leonardo Ramirez
+                        <div class="img-est">
+                            <img class="img-est2" src="/img/Estudiante2.png" alt="Foto estudiante 2">
+                         </div>
+                    </div>
             </details>
+
         </details>
     </div>
 
    </section>
     <section id="colors-section">
     </section>
+    <section id="fonts-section">
+        <h2 class="admin-profile-title">María Daza Torres</h2>
+        <p class="admin-profile-role-text">Administrador (a) - Psicólogo (a)</p>
+        
+        <p class="admin-info-card-number">64</p>
+        <p class="admin-info-card-text">Estudiantes Actuales</p>
+        <p class="admin-info-card-number">2</p>
+        <p class="admin-info-card-text">Diplomados Activos</p>
+        <p class="admin-info-card-number">21</p>
+        <p class="admin-info-card-text">Tareas Calificadas</p>
+
+        <!--TEXTOS DIPLOMADOS Y ESTUDIANTES-->
+        <p class="gratuate-list graduates-list-title">Lista de diplomados</p>
+        <p class="gratuate-list gratuates-list-text">Gestión y Derecho Ambiental</p>
+        <p class="gratuate-list gratuates-list-text">Diego Felipe Rodriguez</p>
+        <p class="gratuate-list gratuates-list-text">Dylan Leonardo Ramirez</p>
+        <p class="gratuate-list gratuates-list-text">Evaluación de Impacto<br />Ambiental</p>
+
+        <p class="chart-text">Promedio de estado anímico de:</p>
+        <p class="chart-title">DIEGO FELIPE RODRIGUEZ</p>
+        <p class="chart-title">85%</p>
+        <p class="chart-title">¡Todo parece ir muy bien!</p>
+
+        <p class="bar-chart-title">Historial del estado anímico: </p>
+        <p class="bar-chart-numbers">100%</p>        
+        <p class="bar-chart-numbers">80%</p>        
+        <p class="bar-chart-numbers">60%</p>        
+        <p class="bar-chart-numbers">40%</p>        
+        <p class="bar-chart-numbers">20%</p>        
+        <p class="bar-chart-dates">22 OCT</p>
+        <p class="bar-chart-dates">23 OCT</p>
+        <p class="bar-chart-dates">24 OCT</p>
+        <p class="bar-chart-dates">25 OCT</p>
+        <p class="bar-chart-dates">26 OCT</p>
+        <p class="bar-chart-dates">27 OCT</p>
+
+        <p class="animic-evolution-title">Evolución<br />anímica</p>
+        <p class="animic-evolution-porsentage">15%</p>
+
+        <p class="activity-chart-title">Actividades faltantes</p>
+        <p class="activity-chart-subtitle">( realizadas y reprobadas )</p>
+        <p class="activity-chart-text">Aprobadas</p>
+        <p class="activity-chart-text">Faltantes</p>
+        <p class="activity-chart-text">Reprobadas</p>
+        <p class="activity-chart-number">12</p>
+        <p class="activity-chart-number">8</p>
+        <p class="activity-chart-number">1</p>
+
+        <p class="pie-chart-title">Rendimiento Academico General</p>
+        <p class="pie-chart-n1">-60</p>
+        <p class="pie-chart-n1">-80</p>
+        <p class="pie-chart-n1">-100</p>
+        <p class="pie-chart-n2">15%</p>
+        <p class="pie-chart-n2">20%</p>
+        <p class="pie-chart-n2">65%</p>
+
+        <!--TEXTOS PARA LA SECCION DE TAREAS APROBADAS Y REPROBADAS-->
+        <p class="student-subject-title">DERECHO AMBIENTAL</p>
+        <p class="student-task-title">Consulta Principio de<br/>organización del estado</p>
+        <p class="student-task-text">
+            Constitución y medio ambiente, función
+            <br />
+            social y ecológica de la propiedad y
+            <br/>
+            Acciones Administrativas.
+        </p>
+        <p class="student-task-aproved">APROVED</p>
+        <p class="student-task-title">Ensayo  Jurisprudencia<br />ambiental nacional e<br/> internacional</p>
+        <p class="student-task-text">
+            Constitución y medio ambiente, función
+            <br />
+            social y ecológica de la propiedad y
+            <br/>
+            Acciones Administrativas.
+        </p>
+        <p class="student-task-reproved">REPROVED</p>
+        <p class="student-task-title">Presentacion Tematica 2</p>
+        <p class="student-task-text">
+            Principio de organización del estado,
+            <br/>
+            precaución en materia ambiental y del
+            <br/>
+            ordenamiento ambiental en Colombia.
+        </p>
+        <p class="student-task-aproved">APROVED</p>
+        <p class="student-task-title">Trabajo Grupal Tematica 3</p>
+        <p class="student-task-text">
+            Constitución y medio ambiente, función
+            <br />
+            social y ecológica de la propiedad y
+            <br/>
+            Acciones Administrativas.
+        </p>
+        <p class="student-task-aproved">APROVED</p>
+        <p class="student-subject-title">LICENCIAS Y PERMISOS</p>
+        <p class="student-subject-title">PROCEDIMIENTOS<br />SANCIONATORIOS</p>
+        <p class="student-subject-title">JUSTICIA AMBIENTAL</p>
+        
+        <!--TEXTOS DEL FOOTER-->
+        <p class="footer-button">Diplomados</p>
+        <p class="footer-button">Estadisticas</p>
+        <p class="footer-button">Contacto</p>
+        <p class="copyright-text"> ©  2022  Fundacion semillas     Diseñado por DDM</p>
+
+        <!--Contenedor principal para seccion de tareas-->
+        <div class="task-cards-section">
+            <div class="task-cards-container">
+                
+            </div>
+        </div>
+        <!--Recuadros para cada tarea del diplomado-->
+        <div class="task-card">
+            <div class="task-card-line"></div>
+        </div>
+        <div class="task-card">
+            <div class="task-card-line"></div>
+        </div>
+        <div class="task-card">
+            <div class="task-card-line"></div>
+        </div>
+        <div class="task-card">
+            <div class="task-card-line"></div>
+        </div>
+
+        <!--Cards para los titulos de asinaturas-->
+        <div class="cards-asinatura-diplomado"></div>
+        <div class="cards-asinatura-diplomado"></div>
+        <div class="cards-asinatura-diplomado"></div>
+        <div class="cards-asinatura-diplomado"></div>
+
+        <form class="students-selector">
+            <label for="lista-diplomados">
+                Lista de diplomados
+            </label><br />
+            <select name="diplomados-selector">
+                <option value="diplomado-1">
+                    Gestión y Derecho Ambiental
+                </option>
+                <option value="diplomado-2">
+                    Evaluación de Impacto<br />Ambiental
+                </option>
+            </select>
+            <label for="lista-estudiantes">
+                Estudiantes del diplomado
+            </label><br />
+            <select name="estudiantes-selector">
+                <option value="student-1">
+                    Diego Felipe Rodriguez
+                </option>
+                <option value="student-2">
+                    Dylan Leonardo Ramirez
+                </option>
+            </select>
+        </form>
+
 
     <footer>
         <div class="footer-back">
@@ -57,7 +303,7 @@
             <div class="linea-footer"></div>
             <p class="text-footer2"> ©  2022  Fundacion semillas &nbsp;&nbsp;&nbsp;Diseñado por DDM</p>
         </div>
-        
+<!--      MOLECULAS Y ORGANISMOS      -->
 
 
 
