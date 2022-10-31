@@ -30,13 +30,11 @@
 }
 body{
     font-size: 10px;
-    background-color: var(--header-color);
-
 }
 /*==========ATOMIC SECTION==========*/
 
 /*==========SMARTPHONES==========*/
-@media (min-width: 576px) {
+@media (min-width: 480px) {
     h2.admin-profile-title{
         font-family: var(--dosis-font);
         font-size: 3em;
@@ -232,23 +230,20 @@ body{
         font-size: 4em;
         font-weight: bold;
     }
-
-@media (max-width: 576px) {
-
-/*==========LISTA DIPLOMADOS==========*/
+    /*==========LISTA DIPLOMADOS==========*/
 
     .lista-diplomados{
-        width: 396px;
+        width: 100%;
         height: 59px;
         background-color: var(--back-elementos-sel);
-   }
+    }
 
-   .lista-diplomados-text{
-        width: 396px;
+    .lista-diplomados-text{
+        width: 100%;
         height: 59px;
         position: absolute;
 }
-   .flechita{
+    .flechita{
         background-color: #FFFFFF;
         width:20px ;
         height: 3px;
@@ -256,8 +251,7 @@ body{
         position: absolute;
         top: 30px;
         left: 323px;
-
-   }
+    }
     .flechita2{
         background-color: #FFFFFF;
         width:20px ;
@@ -269,134 +263,178 @@ body{
 }
 
 /*==========DIPLOMADO GESTION Y DERECHO==========*/
-.diplomado-1{
-    width: 396px;
-    height: 73px;
-    background-color: var(--back-general-info);
-}
+    .diplomado-1{
+        width: 396px;
+        height: 73px;
+        background-color: var(--back-general-info);
+    }
 
-.diplomado1-text{
-    width: 396px;
-    height: 73px;
-    position: absolute;
-}
-.flechita-dip1{
-    background-color: #00000080;
-    width:20px ;
-    height: 3px;
-    transform: rotate(45deg);
-    position: absolute;
-    top: 30px;
-    left: 323px;
+    .diplomado1-text{
+        width: 396px;
+        height: 73px;
+        position: absolute;
+    }
+    .flechita-dip1{
+        background-color: #00000080;
+        width:20px ;
+        height: 3px;
+        transform: rotate(45deg);
+        position: absolute;
+        top: 30px;
+        left: 323px;
 
-}
-.flechita2-dip1{
-    background-color: #00000080;
-    width:20px ;
-    height: 3px;
-    transform: rotate(135deg);
-    position: absolute;
-    top: 30px;
-    left: 335px;
-}
+    }
+    .flechita2-dip1{
+        background-color: #00000080;
+        width:20px ;
+        height: 3px;
+        transform: rotate(135deg);
+        position: absolute;
+        top: 30px;
+        left: 335px;
+    }
 
-.linea-dip{
-    position: absolute;
-    width: 369px;
-    height: 1px;
-    left: 8px;
-    top: 64px;
-    background: #FFFFFF;
-}
+    .linea-dip{
+        position: absolute;
+        width: 369px;
+        height: 1px;
+        left: 8px;
+        top: 64px;
+        background: #FFFFFF;
+    }
 
-.estudiante1{
-    width: 369px;
-    height: 83px;
-    background-color: var(--back-elementos-sel);
-    margin-top: 10px;
-    border-radius: 10px;
-}
+    .estudiante1{
+        width: 369px;
+        height: 83px;
+        background-color: var(--back-elementos-sel);
+        margin-top: 10px;
+        border-radius: 10px;
+    }
 
-.estudiante1-text{
-    width: 396px;
-    height: 73px;
-    position: absolute;
-}
-.linea-est1{
-    position: absolute;
-    width: 356px;
-    height: 1px;
-    left: 5px;
-    top: 76px;
-    background: #FFFFFF;
-}
+    .estudiante1-text{
+        width: 396px;
+        height: 73px;
+        position: absolute;
+    }
+    .linea-est1{
+        position: absolute;
+        width: 356px;
+        height: 1px;
+        left: 5px;
+        top: 76px;
+        background: #FFFFFF;
+    }
 
-.estudiante2{
-    width: 369px;
-    height: 83px;
-    background-color: #FFFFFF;
-    margin-top: 10px;
-    border-radius: 10px;
-    margin-bottom: 15px;
+    .estudiante2{
+        width: 369px;
+        height: 83px;
+        background-color: #FFFFFF;
+        margin-top: 10px;
+        border-radius: 10px;
+        margin-bottom: 15px;
 
-}
+    }
 
-.estudiante2-text{
-    width: 396px;
-    height: 73px;
-    position: absolute;
-}
-.linea-est2{
-    position: absolute;
-    width: 356px;
-    height: 1px;
-    left: 5px;
-    top: 76px;
-    background: #FFFFFF;
-}
+    .estudiante2-text{
+        width: 396px;
+        height: 73px;
+        position: absolute;
+    }
+    .linea-est2{
+        position: absolute;
+        width: 356px;
+        height: 1px;
+        left: 5px;
+        top: 76px;
+        background: #FFFFFF;
+    }
 
-.diplomado-2{
-    width: 396px;
-    height: 78px;
-    background-color: var(--back-general-info);
-}
+    .diplomado-2{
+        width: 396px;
+        height: 78px;
+        background-color: var(--back-general-info);
+    }
 
-.diplomado2-text{
-    width: 396px;
-    height: 78px;
-    position: absolute;
-}
-.flechita-dip2{
-    background-color: #00000080;
-    width:26px ;
-    height: 3px;
-    transform: rotate(38deg);
-    position: absolute;
-    top: 32px;
-    left: 328px;
+    .diplomado2-text{
+        width: 396px;
+        height: 78px;
+        position: absolute;
+    }
+    .flechita-dip2{
+        background-color: #00000080;
+        width:26px ;
+        height: 3px;
+        transform: rotate(38deg);
+        position: absolute;
+        top: 32px;
+        left: 328px;
 
-}
-.flechita2-dip2{
-    background-color: #00000080;
-    width:27px ;
-    height: 3px;
-    transform: rotate(320deg);
-    position: absolute;
-    top: 47px;
-    left: 328px;
-}
-.linea-footer{
-    
-    width: 389px;
-    height: 2px;
-    left: 5px;
-    top: 76px;
-    background:#0000004D;
-    ;
-}
-}
+    }
+    .flechita2-dip2{
+        background-color: #00000080;
+        width:27px ;
+        height: 3px;
+        transform: rotate(320deg);
+        position: absolute;
+        top: 47px;
+        left: 328px;
+    }
+    .linea-footer{
+        
+        width: 389px;
+        height: 2px;
+        left: 5px;
+        top: 76px;
+        background:#0000004D;
+    }
 
-
+    /*Maria Daza profile section (ADMIN)*/
+    div.admin-profile-section{
+        width: 100%;
+        height: 18.5em;
+        color: var(--diplomados-color);
+        background-color: var(--back-general-info);
+        border-radius: 0 0 2em 2em;
+    }
+    div.admin-profile-img{
+        width: 20%;
+        height: 100%;
+        margin: auto 4em;
+    }
+    div.admin-profile-img img{
+        height: 100%;
+        border-radius: 10em;
+    }
+    div.admin-profile-header{
+        height: 11.9em;
+        width: 100%;
+        display: flex;
+        background-color: var(--header-color);
+        border-radius: 0 0 2em 2em;
+    }
+    div.admin-profile-section-text{
+        margin: auto 3em;
+    }
+    div.admin-profile-section h2, p{
+        margin: 0;
+    }
+    div.admin-profile-panel-container{
+        width: 100%;
+        height: 8em;
+        display: flex;
+        text-align: center;
+        color: #000000;
+    }
+    div.admin-profile-card{
+        width: 33%;
+    }
+    div.admin-profile-panel-line{
+        width: .5%;
+        height: 45%;
+        margin: auto 0;
+        background-color: #000000;
+    }
+}
 
 /*==========TABLETS==========*/
 @media (min-width: 768px) {
@@ -506,10 +544,35 @@ body{
         font-size: 2em;
         font-weight: 400;
     }
+
+    /*Maria Daza profile section (ADMIN)*/
+    div.admin-profile-section{
+        height: 29.6em;
+        background-color: var(--header-color);
+    }
+    div.admin-profile-header{
+        margin-bottom: 2.5em;
+    }
+    div.admin-profile-panel-container{
+        gap: 4%;
+        justify-content: center;
+        height: 30%;
+    }
+    div.admin-profile-card{
+        background-color: var(--back-general-info);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 26%;
+        border-radius: 2em;
+    }
+    div.admin-profile-panel-line{
+        display: none;
+    }
 }
 
 /*==========DESKTOP==========*/
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
     h2.admin-profile-title{
         font-size: 3.5em;
     }
@@ -624,5 +687,19 @@ body{
     div.task-cards-section{
         width: 50%;
     }
-}
+
+    /*Maria Daza profile section (ADMIN)*/
+    div.admin-profile-panel-container{
+        gap: 0;
+        background-color: var(--back-general-info);
+    }
+    div.admin-profile-card{
+        border-radius: 0;
+        width: 33%;
+        flex-direction: column;
+    }
+    div.admin-profile-panel-line{
+        display: block;
+    }
+
 }
