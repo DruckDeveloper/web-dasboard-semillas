@@ -133,3 +133,15 @@ Para esta seccion se hizo uso de la etiqueta details y de su acompañante summar
 ![image](https://user-images.githubusercontent.com/114700033/199157993-2f6edb29-dfb3-4b34-a7b2-6f71acf55990.png)
 
 En este caso la informacion dentro de summary es la que el usuario visualiza aun sin abrir o dar click a la tarjeta, y la informacion adicioanl contenida dentro de details es la que se enconde y por ende la que recibe de manera directa el impacto de details, asi mismo se hizo uso de esta etiqueta porque tanto su implementacion como funcionalidad son bastante simples.
+
+
+FUENTES Y ESTRUCTURA.
+
+Tal y como se menciono, se inicio por pequeñas partes, esto tambien aplico de manera directa a la tipografia en general, pues la misma se manejo de la siguiente manera:
+
+![image](https://user-images.githubusercontent.com/114700033/199223132-068a0692-66d9-460b-9d27-aa5e609a90cf.png)
+
+![image](https://user-images.githubusercontent.com/114700033/199223336-c5e7b681-dd5a-4d56-8cb2-7b35b4c44ed8.png)
+
+Esto permitio optimizar el tiempo de manera efectiva al resumir el trabajo en llamar o usar los textos ya estilizados.
+
