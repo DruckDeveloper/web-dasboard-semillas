@@ -90,4 +90,16 @@ Las figuras e iconos eran igualmente parte de los requerimientos que el cliente 
 ![image](https://user-images.githubusercontent.com/114700033/199154431-a6bba177-7de0-46e0-b302-768685862069.png)
 ![image](https://user-images.githubusercontent.com/114700033/199154556-7e0870b0-ce3c-4272-814a-30af6e800300.png)
 ![image](https://user-images.githubusercontent.com/114700033/199154486-c3245eef-c562-4277-9861-fcca4a7dcee0.png)
-Cabe aclarar que lo que se mostro anteriormente fue dise;ado y maqueteado haciendo uso unicamente de CSS y HTML
+
+Cabe aclarar que lo que se mostro anteriormente fue diseñodo y maqueteado haciendo uso unicamente de CSS y HTML.
+
+RESPONSIVE.
+
+Desde el inicio el proyecto se planteo por parte del cliente como una pagina web- apliacion web adaptable, que respondiera de manera adecuada a cada dispostivo por el que pudiera acceder un alumno o directivo, es asi que decidimos usar las media query e implemntar diferentes puntos de quiebre, siendo estos:
+
+![image](https://user-images.githubusercontent.com/114700033/199155659-d7b476a0-f1ea-4633-9c5a-200fb36c8536.png)
+
+![image](https://user-images.githubusercontent.com/114700033/199155740-b97a0654-1433-417b-88a8-c3f341b3714c.png)
+
+![image](https://user-images.githubusercontent.com/114700033/199155812-a30e52f9-6b23-4f6c-b7cd-fd50db11ab00.png)
+
