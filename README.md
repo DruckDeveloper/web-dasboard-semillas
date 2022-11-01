@@ -59,6 +59,10 @@ https://www.figma.com/file/Jvj11uJ3PhRmnovkH3MHAM/Semillas---DASHBOARD?node-id=3
 
 # Documentacion tecnica.
 
+Entre los requerimientos propuestos por el cliente encontrabamos el uso e implemntacion del Git flow dentro del proceso de creacion y desarrollo del repositorio por lo que dentro del equipo de trabajo creamos tanto ramas personales como generales que nos permitieron realizar avances tanto individuales como cooperativos, a continuacion el git flow implemntado:
+
+
+
 Dentro del desarrollo del proyecto se hizo uso del atomic design el cual nos permitio empezar por los elemntos mas pequeños e ir escalando de manera proporcional creando moleculas y organismos, por lo que iniciamos creando el index y las hojas de estilo destinados para esto, cada integrante del equipo se encargo de realizar un atomo, molecula y organismo diferente para que luego de hacer merge los mismos se encontraran a disposicion de quien los necesitara, las carpetas las distribuimos de la siguiente manera:
 
 
