@@ -49,6 +49,7 @@ width: 100%;
 height: 100%;
 overflow-x: hidden;
 background-color: transparent;
+
 }
 
 .cont-dona-dona{
@@ -56,7 +57,7 @@ background-color: transparent;
     width: 50%;
     height: 100%;
     margin-top: -25%;
-    margin-left: -25%;
+    margin-left: -22.5%;
     background-color: transparent;
 
 
@@ -74,6 +75,7 @@ background-color: transparent;
     display: flex;
     justify-content: center;
     align-items: center;
+    transform: rotate(45 deg);
     height: 90%;
     width: 90%;
     border-radius: 50%;
@@ -95,8 +97,7 @@ background-color: transparent;
 /*   ---  FACE   ---   */
 
 .face{
-    transform: scale(calc(100%-50px));
-    font-size: 50%;
+    font-size: 5px;
     width: 45em;
     height: 25em;
     border-radius: 50%;
@@ -151,7 +152,7 @@ background-color: transparent;
 }
 
 .eye-cir{
-     width: 6em;
+    width: 6em;
     height:9em;
     background-color: #5B5A5A;
     border-radius: 50%;
@@ -796,6 +797,9 @@ background:#0000004D;
     grid-area: 3/1/4/4;
 }
 */
+.graph-promedio2{
+    display: none;
+}
 .dashboard{
     margin: auto;
     width: 95%;
@@ -815,6 +819,82 @@ background:#0000004D;
 }
 .circular-grafica{
     grid-area: 6/1/8/4;
+}
+.graph-promedio{
+    text-align: center;
+    width: 100%;
+}
+
+.graph-promedio .chart-text{
+    font-size: 2.5em;
+    color: #808080;
+    
+}
+.graph-promedio .chart-title{
+    font-size: 2.7em;
+    color: var(--green-color);
+    font-weight: bold;
+}
+.graph-promedio .bien{
+    color: var(--ojos-boca);
+    font-size: 3.5em;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.donut{
+    margin: auto;
+    margin-top: 20px ;
+    width: 70%;
+    height: 100%;
+}
+.graph-promedio .abs{
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    padding: 25px 15px;
+    background-color: #1F8D16;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 15px;
+    
+}
+.graph-promedio2{
+    text-align: center;
+    width: 100%;
+}
+
+.graph-promedio2 .chart-text{
+    font-size: 2.5em;
+    color: #808080;
+    
+}
+.graph-promedio2 .chart-title{
+    font-size: 2.7em;
+    color: var(--green-color);
+    font-weight: bold;
+}
+.graph-promedio2 .bien{
+    color: var(--ojos-boca);
+    font-size: 3.5em;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.donut{
+    margin: auto;
+    margin-top: 20px ;
+    width: 70%;
+    height: 100%;
+}
+.graph-promedio2 .abs{
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    padding: 25px 15px;
+    background-color: #1F8D16;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 15px;
+    
 }
 /*     ---     HISTORIAL GRAFICO FINAL    ----    */
 
@@ -1604,6 +1684,12 @@ background:#0000004D;
         color:#808080;
         font-size: 1em;
     }
+    .circular-grafica .pie-chart-title{
+        font-size: 2.5em;
+        margin: 15% 0px 15px 0px;
+        color: #808080;
+        font-weight: 500;
+    }
 
     .porcentaje{
 margin: auto 5% ;
@@ -1613,14 +1699,15 @@ margin: auto 5% ;
 
     }
     .solo-barras-circular{
-        margin-top: 50px;
+        margin-top: 30%;
+
     }
     
     .grafico-circ{
         height: 180px;
         width: 180px;
         border-radius: 50%;
-        margin: 50px auto  0px auto;
+        margin: 30% auto  0px auto;
     }
     .barras-faltantes-grafica{
         padding: 2% 10%;
@@ -1680,6 +1767,51 @@ margin: auto 5% ;
     }
     div.admin-profile-panel-line{
         display: none;
+    }
+    .face{
+        font-size: 8px;
+    }
+
+
+    .graph-promedio{
+        text-align: center;
+
+    }
+    .graph-promedio2{
+        text-align: center;
+        width: 100%;
+    }
+    
+    .graph-promedio .chart-text{
+        font-size: 3.0em;
+
+        
+    }
+    .graph-promedio .chart-title{
+        font-size: 4.0em;
+
+    }
+    .graph-promedio .bien{
+        color: var(--ojos-boca);
+        font-size: 4.5em;
+        font-weight: bold;
+    }
+    .donut{
+        margin: auto;
+        margin-top: 20px ;
+        width: 70%;
+        height: 100%;
+    }
+    .graph-promedio .abs{
+        font-size: 4.5em;
+        color: white;
+        position: absolute;
+        padding: 35px 18px;
+        background-color: #1F8D16;
+        border-radius: 50%;
+        margin-left: 8%;
+        margin-top: 15px;
+        
     }
 }
 
@@ -2089,5 +2221,124 @@ background:#0000004D;
     border-radius:  0px 0px 16px 16px;
     margin-top: 0px;
 }
+
+.graph-promedio{
+    text-align: center;
+    width: 100%;
+}
+
+.graph-promedio .chart-text{
+    font-size: 2.5em;
+    color: #808080;
+    
+}
+.graph-promedio .chart-title{
+    font-size: 2.7em;
+    color: var(--green-color);
+    font-weight: bold;
+}
+.graph-promedio .bien{
+    color: var(--ojos-boca);
+    font-size: 3.5em;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.donut{
+    margin: auto;
+    margin-top: 20px ;
+    width: 70%;
+    height: 100%;
+}
+.graph-promedio .abs{
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    padding: 25px 15px;
+    background-color: #1F8D16;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 15px;
+    
+}
+.graph-promedio2{
+    display: block;
+    grid-area: 1/1/4/4;
+    text-align: center;
+    border-radius: 18px;
+    border: #D9D9D9 1px solid;
+    text-align: center;
+}
+.dashboard{
+    gap: 15px;
+    display: grid;
+    grid-template: repeat(5,1fr) / repeat(5,1fr);
+    gap:5px ;
+
+}
+.historial-grafica{
+    grid-area: 4/1/6/4;
+}
+.evolucion-grafica{
+    grid-area: 1 / 4 / 2 / 6 ;
+}
+.faltantes-grafica{
+    grid-area: 2 / 4/ 3 / 6 ;
+}
+.circular-grafica{
+    grid-area: 3/4/6/6;
+    padding: 0;
+}
+.solo-barras-circular{
+    margin-top: 15%;
+
+}
+
+.grafico-circ{
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    margin: 15% auto  0px auto;
+}
+.graph-promedio{
+    display: none;
+}
+.graph-promedio2 .chart-text{
+    font-size: 2.5em;
+    margin-top: 2%;
+    color: #808080;
+    
+}
+.graph-promedio2 .chart-title{
+    font-size: 2.7em;
+    color: var(--green-color);
+    font-weight: bold;
+}
+.graph-promedio2 .bien{
+    color: var(--ojos-boca);
+    font-size: 3.5em;
+    margin-top:-23%;
+    margin-bottom: 50px;
+}
+.donut{
+    margin: auto;
+    margin-top: 20px ;
+    width: 70%;
+    height: 100%;
+}
+.graph-promedio2 .abs{
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    padding: 25px 15px;
+    background-color: #1F8D16;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 15px;
+    
+}
+.face{
+    font-size: 5px;
+}
+
 }
     
