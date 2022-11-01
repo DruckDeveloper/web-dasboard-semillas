@@ -90,6 +90,7 @@ Las figuras e iconos eran igualmente parte de los requerimientos que el cliente 
 ![image](https://user-images.githubusercontent.com/114700033/199154431-a6bba177-7de0-46e0-b302-768685862069.png)
 ![image](https://user-images.githubusercontent.com/114700033/199154556-7e0870b0-ce3c-4272-814a-30af6e800300.png)
 ![image](https://user-images.githubusercontent.com/114700033/199154486-c3245eef-c562-4277-9861-fcca4a7dcee0.png)
+![image](https://user-images.githubusercontent.com/114700033/199219600-97d3fca6-cca3-49cb-8667-a9044190eacb.png)
 
 Cabe aclarar que lo que se mostro anteriormente fue diseñodo y maqueteado haciendo uso unicamente de CSS y HTML.
 
@@ -108,6 +109,12 @@ DOCUMENTACION POR SECCIONES.
 
 SECCION GRAFICAS.
 
+El prototipo entregado contaba al cliente, contaba con diferentes secciones que iremos especificando y detallando por medio del codigo empleado y las herramientas de las que se hizo uso.
+
+Las graficas fueron parte fundamental dentro del dashboard, se implemento un sistema de grillas que permitiera dividir el espacio y manejar de manera individual cada elemento, asi mismo se hizo uso de bastantes div para posicionar la informacion y darle forma a los iconos.
+
+![image](https://user-images.githubusercontent.com/114700033/199220287-79b3da64-e2ed-4d58-956f-44cfd3a71e26.png)
+
 
 SECCION LISTA DIPLOMADOS Y ALUMNOS.
 
@@ -118,7 +125,3 @@ Para esta seccion se hizo uso de la etiqueta details y de su acompañante summar
 ![image](https://user-images.githubusercontent.com/114700033/199157993-2f6edb29-dfb3-4b34-a7b2-6f71acf55990.png)
 
 En este caso la informacion dentro de summary es la que el usuario visualiza aun sin abrir o dar click a la tarjeta, y la informacion adicioanl contenida dentro de details es la que se enconde y por ende la que recibe de manera directa el impacto de details, asi mismo se hizo uso de esta etiqueta porque tanto su implementacion como funcionalidad son bastante simples.
-
-# Animaciones
-
-
