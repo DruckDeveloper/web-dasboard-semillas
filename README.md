@@ -104,9 +104,12 @@ Desde el inicio el proyecto se planteo por parte del cliente como una pagina web
 ![image](https://user-images.githubusercontent.com/114700033/199155812-a30e52f9-6b23-4f6c-b7cd-fd50db11ab00.png)
 
 
-DOCUMENTACION POR SECCIONES
+DOCUMENTACION POR SECCIONES.
 
-SECCION LISTA DIPLOMADOS Y ALUMNOS
+SECCION GRAFICAS.
+
+
+SECCION LISTA DIPLOMADOS Y ALUMNOS.
 
 Para esta seccion se hizo uso de la etiqueta details y de su acompañante summary, ya que la seccion requeria de una propiedad que permitiera esconder y desplegar informacion de manera rapia y sencilla, un poco del codigo que se uso es:
 
@@ -114,4 +117,8 @@ Para esta seccion se hizo uso de la etiqueta details y de su acompañante summar
 
 ![image](https://user-images.githubusercontent.com/114700033/199157993-2f6edb29-dfb3-4b34-a7b2-6f71acf55990.png)
 
-En este caso la informacion dentro de summary es la que el usuario visualiza aun sin abrir o dar click a la tarjeta, y la informacion adicioanl contenida dentro de details es la que se enconde y por ende la que recibe de manera directa el impacto de details, asi mismo se hizo uso de esta eiqueta porque tanto su implementacion como funcionalidad son bastante simples.
+En este caso la informacion dentro de summary es la que el usuario visualiza aun sin abrir o dar click a la tarjeta, y la informacion adicioanl contenida dentro de details es la que se enconde y por ende la que recibe de manera directa el impacto de details, asi mismo se hizo uso de esta etiqueta porque tanto su implementacion como funcionalidad son bastante simples.
+
+# Animaciones
+
+
