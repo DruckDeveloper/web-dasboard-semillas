@@ -55,3 +55,18 @@ Se creo una sección al principio de la pagina para la version movil y tablet y 
 La version movil y de tablet contienen menus en la parte inferior siempre visibles para su navegación, mientras que en la version de escritorio es un menu flotante a la derecha.
 
 https://www.figma.com/file/Jvj11uJ3PhRmnovkH3MHAM/Semillas---DASHBOARD?node-id=35%3A214
+
+
+# Documentacion tecnica.
+
+Dentro del desarrollo del proyecto se hizo uso del atomic design el cual nos permitio empezar por los elemntos mas pequeños e ir escalando de manera proporcional creando moleculas y organismos, por lo que iniciamos creando el index y las hojas de estilo destinados para esto, cada integrante del equipo se encargo de realizar un atomo, molecula y organismo diferente para que luego de hacer merge los mismos se encontraran a disposicion de quien los necesitara, las carpetas las distribuimos de la siguiente manera:
+
+
+![image](https://user-images.githubusercontent.com/114700033/199151524-94751197-ec6b-4c42-9e62-da3d95fd3619.png)
+
+![image](https://user-images.githubusercontent.com/114700033/199151681-9ca6c862-916c-4cf0-8345-c4ae926e3380.png)
+
+
+Un index para las secciones, finalizadas y aprovadas e igualmente, unahoja de estilos para atomos y otra para organismos y elementos en general.
+
+
