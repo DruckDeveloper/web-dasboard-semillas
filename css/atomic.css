@@ -9,10 +9,10 @@
     --nav-color: #009458;
     --dosis-font: 'Dosis', sans-serif;
     --playfair-font: 'Playfair Display', serif;
-    
+
     /*==========BACKGROUND COLORS==========*/
-    --header-color:#009458;
-    --nav-color:#009458;
+    --header-color: #009458;
+    --nav-color: #009458;
     --back-general-info: #DDDDDD;
     --back-section: #69BF97;
     --back-elementos-sel: #009458;
@@ -37,7 +37,7 @@
 
 
 
-    /*==========BACKGROUND COLORS==========
+/*==========BACKGROUND COLORS==========
          LINEAS DE FONDO GRAFICA 1*/
 
 
@@ -458,12 +458,15 @@ body {
         flex-direction: column;
     }
 
+    /*   ---  AJUSTES FOOTER  ---   */
+
     .linea-footer {
 
-        width: 480px;
+        width: 400px;
         height: 2px;
         background: #0000004D;
-        margin-top: -10px;
+        margin-top: 10px;
+        margin-left: 64px;
     }
 
     .img-footer {
@@ -471,17 +474,23 @@ body {
         height: 53px;
         margin-left: 200px;
         margin-top: 10px;
-        
+
     }
 
+    /*   ---  CORRECCIONES FOOTER   ---   */
     .text-footer1 {
         font-family: var(--dosis-font);
+        display: none;
+    }
+
+    .text1-footer2 {
+        display: none;
     }
 
     .text2-footer1 {
-      font-family: var(--dosis-font);
-      font-size: 20px;
-      margin-left: 100px;
+        font-family: var(--dosis-font);
+        font-size: 20px;
+        margin-left: 100px;
     }
 
     .footer-back2 {
@@ -495,13 +504,14 @@ body {
         margin-top: 0px;
         margin-left: 140px;
     }
-    .info-footer{
+
+    .info-footer {
         justify-content: center;
         height: 400px;
     }
 
 
-    
+
 
 
     /*==========TABLETS==========*/
@@ -597,6 +607,8 @@ body {
             left: 523px;
 
         }
+
+
 
         .flechita2 {
             background-color: #FFFFFF;
@@ -728,8 +740,13 @@ body {
             font-size: 35px;
         }
 
+        .container-footer1 {
+            height: 160px;
+            justify-content: center;
+            background-color: var(--footer-color1);
+        }
+
         .footer-back {
-            height: 314px;
             width: 100%;
             background-color: var(--footer-color1);
             margin-top: 30px;
@@ -738,31 +755,29 @@ body {
 
         .linea-footer {
 
-            width: 389px;
+            width: 100%;
             height: 2px;
-            left: 5px;
-            top: 76px;
+            left: -20px;
+            top: 95px;
             background: #0000004D;
-            ;
         }
 
         .img-footer {
-            width: 57px;
-            height: 53px;
-            margin-top: 5px;
-        }
+            width: 85px;
+            height: 87px;
+            position: relative;
+            left: -90px;
+            top: 20px;
 
-        .text-footer1 {
-            font-family: var(--dosis-font);
         }
 
         .text2-footer1 {
-           font-family: var(--dosis-font);
-        }
 
-        .footer-back2 {
-            display: none;
-           
+            position: relative;
+            top: -50px;
+            left: 250px;
+            font-family: var(--dosis-font);
+            font-size: 22;
         }
 
         .text-footer2 {
@@ -907,6 +922,7 @@ body {
 
     /*==========DESKTOP==========*/
     @media (min-width: 1024px) {
+
         h2.admin-profile-title {
             font-size: 3.5em;
         }
@@ -1274,14 +1290,13 @@ body {
             position: absolute;
         }
 
-        .container-footer1{
+        .container-footer1 {
             height: 160px;
             justify-content: center;
             background-color: var(--footer-color1);
         }
 
         .footer-back {
-            height: 329px;
             width: 100%;
             background-color: var(--footer-color1);
             margin-top: 30px;
@@ -1290,26 +1305,28 @@ body {
 
         .linea-footer {
 
-            width: 389px;
+            width: 100%;
             height: 2px;
-            left: 5px;
-            top: 76px;
+            left: -20px;
+            top: 95px;
             background: #0000004D;
-            ;
         }
 
         .img-footer {
-            width: 57px;
-            height: 53px;
+            width: 85px;
+            height: 87px;
             position: relative;
-            left: 200px;
+            left: 20px;
             top: 20px;
 
         }
+
         .text2-footer1 {
             position: relative;
-            top: 90px;
-            left: 90px;
+            top: -50px;
+            left: 350px;
+            font-family: var(--dosis-font);
+            font-size: 28px;
         }
 
         .text-footer2 {
