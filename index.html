@@ -1,232 +1,409 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/atomic.css">
-    <link rel="stylesheet" href="css/style.css">
-    <title>Student Dashboard</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/atomic.css">
+  <title>Student Dashboard</title>
 </head>
+
 <body>
-    <header>
-        <nav>
+  <header>
+    <nav>
+    </nav>
+  </header>
 
-        </nav>
-    </header>
-    <main>
-<section class="graph-promedio">
-    <p class="chart-text">Promedio de estado anímico de:</p>
-    <p class="chart-title">DIEGO FELIPE RODRIGUEZ</p>
-    <p class="chart-title abs">85%</p>
+  <main>
 
-<div class="donut">
-        <div class="recorte-dona">
-            <div class="cont-dona">
-                <div class="cont-dona-dona">
-                    <div class="grafico-circ-dona">
-                        <div class="medio-dona">
-        
-                            <div class="face face1">
-                                <div class="eyes-section">
-                                    <div class="eye"></div>
-                                    <div class="eye"></div>
-                                </div>
-                                <div class="mouth-section">
-                                    <div class="cheeck"></div>
-                                    <div class="mouth"></div>
-                                    <div class="cheeck"></div>
-                                </div>
-        
-                            </div>
-                        </div>
-                    </div>
+    <!--      PANEL DE ADMINISTRADOR    -->
+
+    <div class="admin-profile-section">
+      <div class="admin-profile-header">
+        <div class="admin-profile-section-text">
+          <h2 class="admin-profile-title">María Daza Torres</h2><br />
+          <p class="admin-profile-role-text">Administrador (a) - Psicólogo (a)</p>
+        </div>
+        <div class="admin-profile-img">
+          <img src="profile/maria-profile.png" alt="Maria Daza photo">
+        </div>
+      </div>
+      <div class="admin-profile-panel-container">
+        <div class="admin-profile-card">
+          <p class="admin-info-card-number">64</p>
+          <p class="admin-info-card-text">Estudiantes Actuales</p>
+        </div>
+        <div class="admin-profile-panel-line"></div>
+        <div class="admin-profile-card">
+          <p class="admin-info-card-number">2</p>
+          <p class="admin-info-card-text">Diplomados Activos</p>
+        </div>
+        <div class="admin-profile-panel-line"></div>
+        <div class="admin-profile-card">
+          <p class="admin-info-card-number">21</p>
+          <p class="admin-info-card-text">Tareas Calificadas</p>
+        </div>
+      </div>
+    </div>
+
+    <!--       CONTENDOR DE LISTAS    -->
+
+    <section class="container-list">
+
+      <div id="container-listas">
+
+        <details class="lista-diplomados">
+
+          <div class="flechita"></div>
+          <div class="flechita2"></div>
+          <summary class="list-dip-text">Lista de diplomados</summary>
+
+          <details class="diplomado1">
+            <summary class="dip1-text"> <p> Gestion y Derecho Ambiental </p></summary>
+            <div class="estudiante1 estudianteclass">
+              <p class="text-diego">Diego Felipe Rodriguez</p>
+
+                <div class="img-est">
+                  <img class="img-est1" src="/img/Estudiante-1.png" alt="Foto estudiante 1">
                 </div>
             </div>
+            <div class="estudiante2 estudianteclass">
+              <p class="text-dylan"> Dylan Leonardo Ramirez</p>
+              <div class="img-est">
+                <img class="img-est2" src="/img/Estudiante2.png" alt="Foto estudiante 2">
+              </div>
+            </div>
+          </details>
+
+        </details>
+      </div>
+
+    </section>
+
+    <!--       GRAFICO PROMEDIO    -->
+
+
+    <section class="graph-promedio">
+      <p class="chart-text">Promedio de estado anímico de:</p>
+      <p class="chart-title">DIEGO FELIPE RODRIGUEZ</p>
+      <p class="chart-title abs">85%</p>
+
+      <div class="donut">
+        <div class="recorte-dona">
+          <div class="cont-dona">
+            <div class="cont-dona-dona">
+              <div class="grafico-circ-dona">
+                <div class="medio-dona">
+
+                  <div class="face face1">
+                    <div class="eyes-section">
+                      <div class="eye"></div>
+                      <div class="eye"></div>
+                    </div>
+                    <div class="mouth-section">
+                      <div class="cheeck"></div>
+                      <div class="mouth"></div>
+                      <div class="cheeck"></div>
+                    </div>
+
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
-</div>
-    <p class="chart-title bien">¡Todo parece ir muy bien!</p>
-</section>
-        <!--      MOLECULAS Y ORGANISMOS      -->
+      </div>
+      <p class="chart-title bien">¡Todo parece ir muy bien!</p>
+    </section>
 
-<!--      GRAFICOS      -->
-
-            <!--      HISTORIAL DE ESTADO ANIMICO      -->
-
-<section class="dashboard">
-    <section class="graph-promedio2">
+    <!--      DASHBOARD DE GRAFICOS     -->
+    <section class="dashboard">
+      <section class="graph-promedio2">
         <p class="chart-text">Promedio de estado anímico de:</p>
         <p class="chart-title">DIEGO FELIPE RODRIGUEZ</p>
         <p class="chart-title abs">85%</p>
-    
-    <div class="donut">
-            <div class="recorte-dona">
-                <div class="cont-dona">
-                    <div class="cont-dona-dona">
-                        <div class="grafico-circ-dona">
-                            <div class="medio-dona">
-            
-                                <div class="face face1">
-                                    <div class="eyes-section">
-                                        <div class="eye"></div>
-                                        <div class="eye"></div>
-                                    </div>
-                                    <div class="mouth-section">
-                                        <div class="cheeck"></div>
-                                        <div class="mouth"></div>
-                                        <div class="cheeck"></div>
-                                    </div>
-            
-                                </div>
-                            </div>
-                        </div>
+
+        <div class="donut">
+          <div class="recorte-dona">
+            <div class="cont-dona">
+              <div class="cont-dona-dona">
+                <div class="grafico-circ-dona">
+                  <div class="medio-dona">
+
+                    <div class="face face1">
+                      <div class="eyes-section">
+                        <div class="eye"></div>
+                        <div class="eye"></div>
+                      </div>
+                      <div class="mouth-section">
+                        <div class="cheeck"></div>
+                        <div class="mouth"></div>
+                        <div class="cheeck"></div>
+                      </div>
+
                     </div>
+                  </div>
                 </div>
+              </div>
             </div>
-    </div>
+          </div>
+        </div>
         <p class="chart-title bien">¡Todo parece ir muy bien!</p>
+      </section>
     </section>
-    <div class="historial-grafica">
+    <!--      HISTORIAL DE ESTADO ANIMICO      -->
+
+    <section class="dashboard">
+      <div class="historial-grafica">
         <p class="bar-chart-title">Historial del estado anímico: </p>
         <div class="cont-barra">
 
-            <div class="num-cont-barra">
-                <br>
-                <p>100%</p>
-                <br>
-                <p>80%</p>
-                <br>
-                <p>60%</p>
-                <br>
-                <p>40%</p>
-                <br>
-                <p>20%</p>
-            </div>
-            <div class="cont-barra-vert">
-                <div class="barra-vert1"></div>
-                <div class="barra-vert2"></div>
-                <div class="barra-vert3"></div>
-                <div class="barra-vert4"></div>
-                <div class="barra-vert5"></div>
-                <div class="barra-vert6"></div>
-            </div>
+          <div class="num-cont-barra">
+            <br>
+            <p>100%</p>
+            <br>
+            <p>80%</p>
+            <br>
+            <p>60%</p>
+            <br>
+            <p>40%</p>
+            <br>
+            <p>20%</p>
+          </div>
+          <div class="cont-barra-vert">
+            <div class="barra-vert1"></div>
+            <div class="barra-vert2"></div>
+            <div class="barra-vert3"></div>
+            <div class="barra-vert4"></div>
+            <div class="barra-vert5"></div>
+            <div class="barra-vert6"></div>
+          </div>
 
         </div>
         <div class="fechas-historial">
-            <p class="bar-chart-dates">22 <br> OCT</p>
-            <p class="bar-chart-dates">23 <br> OCT</p>
-            <p class="bar-chart-dates">24 <br> OCT</p>
-            <p class="bar-chart-dates">25 <br> OCT</p>
-            <p class="bar-chart-dates">26 <br> OCT</p>
-            <p class="bar-chart-dates">27 <br> OCT</p>
+          <p class="bar-chart-dates">22 <br> OCT</p>
+          <p class="bar-chart-dates">23 <br> OCT</p>
+          <p class="bar-chart-dates">24 <br> OCT</p>
+          <p class="bar-chart-dates">25 <br> OCT</p>
+          <p class="bar-chart-dates">26 <br> OCT</p>
+          <p class="bar-chart-dates">27 <br> OCT</p>
         </div>
 
-    </div>
+      </div>
 
-                <!--      EVOLUCION ANIMICA     -->
+      <!--      EVOLUCION ANIMICA     -->
 
-    <div class="evolucion-grafica">
+      <div class="evolucion-grafica">
 
         <div class="evolucion-text">
-            <p class="animic-evolution-title">Evolución anímica</p>
-            <p class="activity-chart-subtitle"> <span>(con respecto a la actividad anterior)</span></p>
+          <p class="animic-evolution-title">Evolución anímica</p>
+          <p class="activity-chart-subtitle"> <span>(con respecto a la actividad anterior)</span></p>
         </div>
         <div class="porcentaje">
-        <div class="flecha">
+          <div class="flecha">
             <div class="triangle"></div>
             <div class="arrow-abajo"></div>
+          </div>
+          <p class="animic-evolution-porsentage">15%</p>
         </div>
-        <p class="animic-evolution-porsentage">15%</p>
-        </div>
-    </div>
+      </div>
 
 
-                <!--      ACTIVIDADES FALTANTES     -->
-    <div class="faltantes-grafica">
+      <!--      ACTIVIDADES FALTANTES     -->
+      <div class="faltantes-grafica">
 
         <p class="activity-chart-title">Actividades faltantes</p>
         <p class="activity-chart-subtitle">( realizadas y reprobadas )</p>
         <div class="barras-faltantes-grafica">
-            <div class="faltantes-seccion-barras">
-                <p class="activity-chart-text">Aprobadas</p>
-                <div class="barra-hort1"></div>
-                <p class="activity-chart-number">12</p>
-            </div>
-            <div class="faltantes-seccion-barras">
-                <p class="activity-chart-text">Faltantes</p>
-                <div class="barra-hort2"></div>
-                <p class="activity-chart-number">8</p>
-            </div>
-            <div class="faltantes-seccion-barras">
-                <p class="activity-chart-text">Reprobadas</p>
-                <div class="barra-hort3"></div>
-                <p class="activity-chart-number">1</p>
-            </div>
+          <div class="faltantes-seccion-barras">
+            <p class="activity-chart-text">Aprobadas</p>
+            <div class="barra-hort1"></div>
+            <p class="activity-chart-number">12</p>
+          </div>
+          <div class="faltantes-seccion-barras">
+            <p class="activity-chart-text">Faltantes</p>
+            <div class="barra-hort2"></div>
+            <p class="activity-chart-number">8</p>
+          </div>
+          <div class="faltantes-seccion-barras">
+            <p class="activity-chart-text">Reprobadas</p>
+            <div class="barra-hort3"></div>
+            <p class="activity-chart-number">1</p>
+          </div>
         </div>
-        
-    </div>
 
-                <!--      GRAFICO CIRCULAR     -->
-    <div class="circular-grafica">
+      </div>
+
+      <!--      GRAFICO CIRCULAR     -->
+      <div class="circular-grafica">
         <p class="pie-chart-title">Rendimiento Academico General</p>
         <div class="cont-graficos-circular">
-            <div class="solo-barras-circular">
-                <div class="faltantes-seccion-barras">
-                    <p class="pie-chart-n1">-60</p>
-                    <div class="barra-hort4"></div>
-                    <p class="pie-chart-n2">15%</p>
-                </div>
-                <div class="faltantes-seccion-barras">
-                    <p class="pie-chart-n1">-80</p>
-                    <div class="barra-hort5"></div>
-                    <p class="pie-chart-n2">20%</p>
-                </div>
-                <div class="faltantes-seccion-barras">
-                    <p class="pie-chart-n1">-100</p>
-                    <div class="barra-hort6"></div>
-                    <p class="pie-chart-n2">65%</p>
-                </div>
+          <div class="solo-barras-circular">
+            <div class="faltantes-seccion-barras">
+              <p class="pie-chart-n1">-60</p>
+              <div class="barra-hort4"></div>
+              <p class="pie-chart-n2">15%</p>
             </div>
-            <div class="grafico-circ"></div>
+            <div class="faltantes-seccion-barras">
+              <p class="pie-chart-n1">-80</p>
+              <div class="barra-hort5"></div>
+              <p class="pie-chart-n2">20%</p>
+            </div>
+            <div class="faltantes-seccion-barras">
+              <p class="pie-chart-n1">-100</p>
+              <div class="barra-hort6"></div>
+              <p class="pie-chart-n2">65%</p>
+            </div>
+          </div>
+          <div class="grafico-circ"></div>
         </div>
-    </div>
-</section>
-        <a href="atomic.html">ATOMIC HTML</a>
+      </div>
+    </section>
 
-        <!--seccion de perfil de admin-->
-        <div class="admin-profile-section">
-            <div class="admin-profile-header">
-                <div class="admin-profile-section-text">
-                    <h2 class="admin-profile-title">María Daza Torres</h2><br/>
-                    <p class="admin-profile-role-text">Administrador (a) - Psicólogo (a)</p>
-                </div>
-                <div class="admin-profile-img">
-                    <img src="profile/maria-profile.png" alt="Maria Daza photo">
-                </div>
-            </div>
-            <div class="admin-profile-panel-container">
-                <div class="admin-profile-card">
-                    <p class="admin-info-card-number">64</p>
-                    <p class="admin-info-card-text">Estudiantes Actuales</p>
-                </div>
-                <div class="admin-profile-panel-line">
-                </div>
-                <div class="admin-profile-card">
-                    <p class="admin-info-card-number">2</p>
-                    <p class="admin-info-card-text">Diplomados Activos</p>
-                </div>
-                <div class="admin-profile-panel-line">
-                </div>
-                <div class="admin-profile-card">
-                    <p class="admin-info-card-number">21</p>
-                    <p class="admin-info-card-text">Tareas Calificadas</p>
-                </div>
-            </div>
+    <!--historial de tareas-->
+
+    <div class="task-cards-section">
+      <div class="task-cards-container">
+        <div class="cards-asinatura-diplomado">
+          <p class="student-subject-title">DERECHO AMBIENTAL</p>
         </div>
-    </main>
-    <footer>
-        
-    </footer>
+        <div class="activities-flex-container">
+          <div class="task-card-column">
+            <div class="task-card">
+              <div class="task-card-text-container">
+                <p class="student-task-title">Consulta Principio de organización del estado</p>
+                <p class="student-task-text">
+                  Constitución y medio ambiente, función
+                  social y ecológica de la propiedad y
+                  Acciones Administrativas.
+                </p>
+              </div>
+              <div class="activity-card-face">
+                <div class="face face1">
+                  <div class="eyes-section">
+                    <div class="eye"></div>
+                    <div class="eye"></div>
+                  </div>
+                  <div class="mouth-section">
+                    <div class="cheeck"></div>
+                    <div class="mouth"></div>
+                    <div class="cheeck"></div>
+                  </div>
+
+                </div>
+                <p class="student-task-aproved">APROVED</p>
+              </div>
+            </div>
+            <div class="task-card">
+              <div class="task-card-text-container">
+                <p class="student-task-title">Ensayo Jurisprudencia ambiental nacional e
+                  internacional</p>
+                <p class="student-task-text">
+                  Constitución y medio ambiente, función
+                  social y ecológica de la propiedad y
+                  Acciones Administrativas.
+                </p>
+              </div>
+              <div class="activity-card-face">
+                <div class="face face3">
+                  <div class="eyes-section">
+                    <div class="eye-cir"></div>
+                    <div class="eye-cir"></div>
+                  </div>
+                  <div class="mouth-section">
+                    <div class="cheeck"></div>
+                    <div class="mouth-mad"></div>
+                    <div class="cheeck"></div>
+                  </div>
+                  </div
+                </div>
+                <p class="student-task-reproved">REPROVED</p>
+              </div>
+            </div>
+            <div class="task-card-column">
+              <div class="task-card">
+                <div class="task-card-text-container">
+                  <p class="student-task-title">Presentacion Tematica 2</p>
+                  <p class="student-task-text">
+                    Principio de organización del estado,
+                    precaución en materia ambiental y del
+                    ordenamiento ambiental en Colombia.
+                  </p>
+                </div>
+                <div class="activity-card-face">
+                  <div class="face face1">
+                    <div class="eyes-section">
+                      <div class="eye"></div>
+                      <div class="eye"></div>
+                    </div>
+                    <div class="mouth-section">
+                      <div class="cheeck"></div>
+                      <div class="mouth"></div>
+                      <div class="cheeck"></div>
+                    </div>
+
+                  </div>
+                  <p class="student-task-aproved">APROVED</p>
+                </div>
+              </div>
+              <div class="task-card">
+                <div class="task-card-text-container">
+                  <p class="student-task-title">Trabajo Grupal Tematica 3</p>
+                  <p class="student-task-text">
+                    Constitución y medio ambiente, función
+                    social y ecológica de la propiedad y
+                    Acciones Administrativas.
+                  </p>
+                </div>
+                <div class="activity-card-face">
+                  <div class="face face1">
+                    <div class="eyes-section">
+                      <div class="eye"></div>
+                      <div class="eye"></div>
+                    </div>
+                    <div class="mouth-section">
+                      <div class="cheeck"></div>
+                      <div class="mouth"></div>
+                      <div class="cheeck"></div>
+                    </div>
+                </div>
+                  <p class="student-task-aproved">APROVED</p>
+              </div>
+            </div>
+          </div>
+          <div class="cards-asinatura-diplomado">
+            <p class="student-subject-title">LICENCIAS Y PERMISOS</p>
+          </div>
+          <div class="cards-asinatura-diplomado">
+            <p class="student-subject-title">PROCEDIMIENTOS SANCIONATORIOS</p>
+          </div>
+          <div class="cards-asinatura-diplomado">
+            <p class="student-subject-title">JUSTICIA AMBIENTAL</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+
+
+  </main>
+  
+  <footer id="container-footer1">
+    <div class="footer-back">
+      <div class="info-footer">
+        <img class="img-footer" src="/img/logoSBlack (1).png" alt="Logo fundacion semillas">
+        <p class="text2-footer1">
+          Diplomados&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Estadisticas&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Contacto
+        </p>
+        <div class="linea-footer"></div>
+        <p class="text1-footer2"> © 2022 Fundacion semillas &nbsp;&nbsp;&nbsp;Diseñado por DDM</p>
+      </div>
+    </div>
+  </footer>
 </body>
+
 </html>
