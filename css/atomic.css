@@ -9,10 +9,10 @@
     --nav-color: #009458;
     --dosis-font: 'Dosis', sans-serif;
     --playfair-font: 'Playfair Display', serif;
-    
+
     /*==========BACKGROUND COLORS==========*/
-    --header-color:#009458;
-    --nav-color:#009458;
+    --header-color: #009458;
+    --nav-color: #009458;
     --back-general-info: #DDDDDD;
     --back-section: #69BF97;
     --back-elementos-sel: #009458;
@@ -44,16 +44,14 @@
 body {
     font-size: 10px;
     font-family: var(--dosis-font);
+    width: 95%;
 }
 
 :root {
     --dosis-font: 'Dosis', sans-serif;
     --playfair-font: 'Playfair Display', serif;
 }
-body {
-    font-size: 10px;
-    font-family: var(--dosis-font);
-}
+
 /*   ---  DONUT  ---   */
 .recorte-dona{
 width: 100%;
@@ -268,22 +266,80 @@ background-color: transparent;
     background-color: #ffffff;
 }
 
-
-
-
-body {
-    font-size: 10px;
-}
-
 /*==========ATOMIC SECTION==========*/
 
 /*==========SMARTPHONES==========*/
 @media (min-width: 480px) {
+    .admin-info-card-number{
+        font-size: 3em;
+        font-weight: 600;
+    }
+    p.admin-info-card-text {
+        font-size: 1.4em;
+        color: #5B5A5A
+    }
+    div.task-cards-section{
+        width: 100%;
+        background-color: #69BF97;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+      margin-top: 40px;
+    }
+    div.task-cards-container{
+        width: 95%;
+        height: 95%;
+        background-color: #69BF97;
+        border-radius: 20px;
+    }
+    div.activities-flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    div.task-card{
+        display: flex;
+        width: 100%;
+        height: 25%;
+        background-color: #ffffff;
+        margin: 10px 0;
+    }
+    div.task-card div.task-card-text-container{
+        width: 70%;
+    }
+    div.task-card div.activity-card-face{
+        width: 30%;
+    }
+    div.cards-asinatura-diplomado{
+        width: 100%;
+        height: 5%;
+        margin: 1em 0;
+        background-color: #ffffff;
+        border-radius: 1em;
+    }
+    div.cards-asinatura-diplomado p{
+        margin: auto 1em;
+    }
+
     h2.admin-profile-title {
         font-family: var(--dosis-font);
         font-size: 3em;
         font-weight: 500;
+        width: 100%;
     }
+
+  p.student-task-title {
+    font-family: var(--dosis-font);
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-left: 15px;
+}
+  p.student-task-text {
+    font-family: var(--dosis-font);
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-left: 15px;
+}
 
     p.admin-profile-role-text {
         font-family: var(--playfair-font);
@@ -294,8 +350,10 @@ body {
         background-color: #69BF97;
         display: flex;
         justify-content: center;
-        align-items: center;
         border-radius: 20px;
+        width: 100%;
+        height: 370px;
+        margin-bottom: 50px;
     }
     div.task-cards-container{
         width: 95%;
@@ -307,9 +365,8 @@ body {
         display: flex;
         justify-content: center;
         width: 100%;
-        height: 190px;
+        height: 165px;
         background-color: #ffffff;
-        border: 1px solid #000000;
         margin: 10px 0;
         position: relative;
     }
@@ -323,7 +380,6 @@ body {
     div.cards-asinatura-diplomado{
         width: 100%;
         height: 5%;
-        border-bottom: 0.1em solid #000000;
     }
     div.cards-asinatura-diplomado p{
         margin: auto 1em;
@@ -331,28 +387,13 @@ body {
 
     /*==========LISTA DIPLOMADOS==========*/
 
-    .lista-diplomados{
-        width: 100%;
-        height: 59px;
-        background-color: var(--back-elementos-sel);
-    }
+ 
 /*==========LISTA DIPLOMADOS==========*/
 
-.lista-diplomados{
-    width: 396px;
-    height: 59px;
-    background-color: var(--back-elementos-sel);
-}
 
-#container-listas{
-    background-color: #69BF97;
-    width: 428px;
-    height: 370px;
-    display: grid;
-    justify-content: center;
-}
 
 .container-list{
+  width:100;
     justify-content: center;
 }
 
@@ -361,68 +402,36 @@ summary{
 }
 details.lista-diplomados{
     background-color: #009458;
-    width: 396px;
+    width: 90%;
     height: 59px;
+    margin: auto;
     margin-top: 15px;
     cursor: pointer;
+  
+  
+   
+
 }
 
 details.lista-diplomados summary{
     margin-left: 15px;
 }
 
-details.dip1-text summary{
-    margin-left: 15px;
-}
 
-details.dip1-text summary{
-   margin-top: 25px;
-   text-justify: center;
-   text-align: center;
-}
+
 
 
 details.diplomado1 {
     background-color: #DDDDDD;
-    width: 396px;
+    width: 100%;
     height: 73px;
     margin-top: 18px;
     cursor: pointer;
 }
 
-details.estudiante1{
-   margin-top: 80px;
-}
-.lista-diplomados{
-   width: 396px;
-   height: 59px;
-   background-color: var(--back-elementos-sel);
-}
 
-.list-dip-text{
-   width: 396px;
-   font-family: var(--dosis-font);
-   font-size: 40px;
-}
-.flechita{
-   background-color: #FFFFFF;
-   width:20px ;
-   height: 3px;
-   transform: rotate(45deg);
-   position: relative;
-   top: -15px;
-   left: 323px;
 
-}
-.flechita2{
-   background-color: #FFFFFF;
-   width:20px ;
-   height: 3px;
-   transform: rotate(135deg);
-   position: relative;
-   top: -18px;
-   left: 335px;
-}
+
 
 /*==========DIPLOMADO GESTION Y DERECHO==========*/
 .diplomado-1{
@@ -432,41 +441,33 @@ background-color: var(--back-general-info);
 }
 
 .diplomado1-text{
-width: 396px;
 height: 73px;
 position: absolute;
 }
 
+  div.cards-asinatura-diplomado p {
+    margin: auto 1em;
+    font-family: var(--dosis-font);
+    font-size: 2em;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
 .list-dip-text{
+  width:90%;
 font-family: var(--dosis-font);
 color: #FFFFFF;
 font-size: 30px;
 }
 
-.dip1-text{
-    font-family: var(--dosis-font);
-    font-size: 25px;
-      
+  .text2-footer1{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 15%;
+    font-family: "Dosis";
+    font-size: 210%;
 }
-.flechita-dip1{
-background-color: #00000080;
-width:20px ;
-height: 3px;
-transform: rotate(45deg);
-position: relative;
-top: 55px;
-left: 323px;
 
-}
-.flechita2-dip1{
-background-color: #00000080;
-width:20px ;
-height: 3px;
-transform: rotate(135deg);
-position: relative;
-top: 53px;
-left: 335px;
-}
 
 .linea-dip{
 position: absolute;
@@ -478,6 +479,7 @@ background: #FFFFFF;
 }
 
 .img-est{
+
     width: 65px;
     height: 65px;
     border-radius: 100%;
@@ -487,26 +489,20 @@ background: #FFFFFF;
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    margin-left: 280px;
-    margin-top: -26px;
-
 }
 
 .img-est2{
     width: 100%;
     height: 100%;
     border-radius: 100%;
-    margin-left: 280px;
-    margin-top: -26px;
-
 }
 
 .estudiante1{
-width: 369px;
+width: 90%;
 height: 83px;
 background-color: var(--back-elementos-sel);
-margin-top: 50px;
-margin-left: 10px;
+margin-top: 40px;
+margin-left: 33px;
 border-radius: 10px;
 justify-items: center;
 color: #FFFFFF;
@@ -517,54 +513,40 @@ font-size: 25px;
 }
 
 
-.linea-est1{
-position: relative;
-width: 356px;
-height: 1px;
-left: 30px;
-top: 245px;
-background: #FFFFFF;
+.linea-est1 {
+    position: relative;
+    width: 356px;
+    height: 1px;
+    left: 5px;
+    top: 50px;
+    background: #FFFFFF;
 }
 
 .estudiante2{
-width: 369px;
+width: 90%;
 height: 83px;
 background-color: #FFFFFF;
-margin-top: 10px;
-margin-left: 10px;
+margin-top: 3px;
+margin-left: 33px;
 border-radius: 10px;
 margin-bottom: 15px;
 font-family: var(--dosis-font);
 font-size: 25px;
 }
-.text-diego{
+.text-dylan{
+height:100%;
+  margin-top:50px;
 font-family: var(--dosis-font);
 font-size: 25px;
+}
+.text-diego{
+  margin-top:50px;
+  height:100%;
+
+font-family: var(--dosis-font);
+
+font-size: 25px;
 color: #FFFFFF;
-margin:auto
-}
-.lista-diplomados-text{
-        width: 100%;
-        height: 59px;
-        position: absolute;
-}
-    .flechita{
-        background-color: #FFFFFF;
-        width:20px ;
-        height: 3px;
-        transform: rotate(45deg);
-        position: absolute;
-        top: 30px;
-        left: 323px;
-    }
-    .flechita2{
-        background-color: #FFFFFF;
-        width:20px ;
-        height: 3px;
-        transform: rotate(135deg);
-        position: absolute;
-        top: 30px;
-        left: 335px;
 }
 
 /*==========DIPLOMADO GESTION Y DERECHO==========*/
@@ -575,46 +557,10 @@ margin:auto
     }
 
     .diplomado1-text{
-        width: 396px;
         height: 73px;
         position: absolute;
     }
-    .flechita-dip1{
-        background-color: #00000080;
-        width:20px ;
-        height: 3px;
-        transform: rotate(45deg);
-        position: absolute;
-        top: 30px;
-        left: 323px;
 
-    }
-    .flechita2-dip1{
-        background-color: #00000080;
-        width:20px ;
-        height: 3px;
-        transform: rotate(135deg);
-        position: absolute;
-        top: 30px;
-        left: 335px;
-    }
-
-    .linea-dip{
-        position: absolute;
-        width: 369px;
-        height: 1px;
-        left: 8px;
-        top: 64px;
-        background: #FFFFFF;
-    }
-
-    .estudiante1{
-        width: 369px;
-        height: 83px;
-        background-color: var(--back-elementos-sel);
-        margin-top: 10px;
-        border-radius: 10px;
-    }
 
     .estudiante1-text{
         width: 396px;
@@ -630,15 +576,6 @@ margin:auto
         background: #FFFFFF;
     }
 
-    .estudiante2{
-        width: 369px;
-        height: 83px;
-        background-color: #FFFFFF;
-        margin-top: 10px;
-        border-radius: 10px;
-        margin-bottom: 15px;
-
-    }
 
 .estudiante2-text{
 width: 396px;
@@ -646,22 +583,14 @@ height: 73px;
 position: absolute;
 }
 
-.footer-back{
-    width:480px;
-    height: 137px;
-    background-color: var(--footer-color1);
-    margin-top: 30px;
-    display: flex;
-}
-
 .linea-footer{
-
 width: 480px;
 height: 2px;
-left: 5px;
-top: 76px;
+margin: auto;
+margin-top:20px ;
 background:#0000004D;
 }
+
 /*==========           GRID GRAFICOS              ==========*/
 /*
 .dashboard{
@@ -1064,14 +993,6 @@ background:#0000004D;
         top: 47px;
         left: 328px;
     }
-    .linea-footer{
-        
-        width: 389px;
-        height: 2px;
-        left: 5px;
-        top: 76px;
-        background:#0000004D;
-    }
 
     /*Maria Daza profile section (ADMIN)*/
     div.admin-profile-section{
@@ -1083,7 +1004,7 @@ background:#0000004D;
     }
     div.admin-profile-img{
         width: 20%;
-        height: 100%;
+        height: 75%;
         margin: auto 4em;
     }
     div.admin-profile-img img{
@@ -1094,14 +1015,16 @@ background:#0000004D;
         height: 11.9em;
         width: 100%;
         display: flex;
+        justify-content: space-between;
         background-color: var(--header-color);
         border-radius: 0 0 2em 2em;
     }
     div.admin-profile-section-text{
-        margin: auto 3em;
+        margin: auto 1.5em;
     }
     div.admin-profile-section h2, p{
         margin: 0;
+      
     }
     div.admin-profile-panel-container{
         width: 100%;
@@ -1123,50 +1046,106 @@ background:#0000004D;
 .img-footer{
     width: 57px;
     height: 53px;
-    position: relative;
-    left: 200px;
-    top: 20px;
-}
+    margin: auto;
+    margin-left: 45%;
+    margin-top: 10px;
+  
+  }
 
 .text-footer1{
     display: none;
 }
-
-.text2-footer1{
+  .text1-footer2{
+    margin-top: 4%;
+    margin-left: 27%;
+  }
+.flechita{
+    background-color: #FFFFFF;
+    width:20px ;
+    height: 3px;
+    transform: rotate(45deg);
     position: relative;
-    top: 90px;
-    left: 90px;
+    top: -15px;
+    left: 323px;
+ 
+ }
+ .flechita2{
+    background-color: #FFFFFF;
+    width:20px ;
+    height: 3px;
+    transform: rotate(135deg);
+    position: relative;
+    top: -18px;
+    left: 335px;
+ }
+ .flechita-dip1{
+    background-color: #00000080;
+    width:20px ;
+    height: 3px;
+    transform: rotate(45deg);
+     margin-left: 320px;
+    top: -30px;
+     
 }
-
-.footer-back2{
-    background-color: var(--footer-color2);
-    width: 480px;
-    height:34px ;
+.flechita2-dip1{
+    background-color: #00000080;
+    width:20px ;
+    height: 3px;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 30px;
+    left: 335px;
 }
-
-.text-footer2{
-   color: #e8e8e8;
-   position: relative;
-    top: 0px;
-    left: 140px;
+  .flecha-diplomado-1{
+    margin-left:25px ;
+  }
+  .flecha-diplomado-2{
+    margin-top: 200px;
+  }
+  summary{
+    display:flex;
+    align-items:center;
+    
+  }
+    .dip1-text p{
+      
+        margin-top:15px;
+    }
+  .dip1-text{
+        font-size:2.5em;
+    }
+  .estudianteclass{
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
 }
-
-.header{
-    width: 428px;
-    height: 169px;
-    background-color: var(--back-elementos-sel);
-    border-radius:  0px 0px 16px 16px;
-    margin-top: 0px;
-}
-
+    
+    div.task-card p.student-task-aproved{
+        color: #00c200;
+      margin-left: 15px;
+      
+    }
+    div.face3 p.student-task-reproved{
+        color: #cc0000;
+    }
 }
 /*==========TABLETS==========*/
 @media (min-width: 768px) {
+     
     h2.admin-profile-title {
         font-family: var(--dosis-font);
         font-size: 3em;
         font-weight: 500;
     }
+
+  .text2-footer1{
+    margin: auto;
+    margin-top: 5%;
+    margin-left: 27%;
+    font-family: "Dosis";
+    font-size: 250%;
+}
 
     p.admin-profile-role-text {
         font-family: var(--playfair-font);
@@ -1175,12 +1154,14 @@ background:#0000004D;
 
     #container-listas {
         background-color: #69BF97;
+      width:100%;
         height: 610px;
         display: grid;
         justify-content: center;
     }
 
     .container-list {
+      
         justify-content: center;
     }
 
@@ -1188,112 +1169,25 @@ background:#0000004D;
         list-style: none;
     }
 
-    details.diplomado1 {
-        margin-top: -20px;
-    }
-
-    details.lista-diplomados {
-        background-color: #009458;
-        width: 662px;
-        height: 95px;
-        margin-top: 35px;
-        cursor: pointer;
-    }
-
-    details.lista-diplomados summary {
-        margin-top: 10px;
-        margin-left: 15px;
-    }
-
-    details.dip1-text summary {
-        margin-top: 10px;
-        margin-left: 15px;
-    }
-
-    details.dip1-text summary {
-        margin-top: 25px;
-        text-justify: center;
-        text-align: center;
-    }
-
-
-    details.diplomado1 {
-        background-color: #DDDDDD;
-        width: 662px;
-        height: 118px;
-        margin-top: 18px;
-        cursor: pointer;
-    }
-
-    details.estudiante1 {
-        margin-top: 80px;
-    }
-
-    .lista-diplomados {
-        width: 396px;
-        height: 59px;
-        background-color: var(--back-elementos-sel);
-    }
-
-    .list-dip-text {
-        width: 396px;
-        height: 59px;
-        font-family: var(--dosis-font);
-        font-size: 40px;
-    }
-
-    .flechita {
-        background-color: #FFFFFF;
-        width: 30px;
-        height: 3px;
-        transform: rotate(45deg);
+  
+ 
+  .img-footer {
+        width: 85px;
+        height: 87px;
         position: relative;
-        top: -15px;
-        left: 523px;
-
+        left: 20px;
+        top: 20px;
     }
 
-    .flechita2 {
-        background-color: #FFFFFF;
-        width: 30px;
-        height: 3px;
-        transform: rotate(135deg);
-        position: relative;
-        top: -18px;
-        left: 543px;
-    }
+
+
+
 
     /*==========DIPLOMADO GESTION Y DERECHO==========*/
-    .diplomado-1 {
-        width: 396px;
-        height: 73px;
-        background-color: var(--back-general-info);
-    }
 
-    .diplomado1-text {
-        width: 396px;
-        height: 73px;
-        position: absolute;
-    }
 
-    .list-dip-text {
-        font-family: var(--dosis-font);
-        color: #FFFFFF;
-        font-size: 40px;
-    }
 
-    .text-diego {
-        font-family: var(--dosis-font);
-        font-size: 35px;
-        color: #FFFFFF;
-        margin: auto
-    }
 
-    .dip1-text {
-        font-family: var(--dosis-font);
-        font-size: 35px;
-
-    }
 
     .flechita-dip1 {
         background-color: #00000080;
@@ -1325,30 +1219,6 @@ background:#0000004D;
         background: #FFFFFF;
     }
 
-    .img-est {
-        width: 95px;
-        height: 95px;
-        border-radius: 100%;
-        margin-top: -30px;
-    }
-
-    .img-est1 {
-        width: 100%;
-        height: 100%;
-        border-radius: 100%;
-        margin-left: 480px;
-        margin-top: 10px;
-
-    }
-
-    .img-est2 {
-        width: 100%;
-        height: 100%;
-        border-radius: 100%;
-        margin-left: 480px;
-        margin-top: 10px;
-
-    }
 
     .estudiante1 {
         width: 617px;
@@ -1370,54 +1240,6 @@ background:#0000004D;
         left: 10px;
         top: 85px;
         background: #FFFFFF;
-    }
-
-    .estudiante2 {
-        width: 617px;
-        height: 134px;
-        background-color: #FFFFFF;
-        margin-top: 10px;
-        border-radius: 10px;
-        margin-bottom: 15px;
-        font-family: var(--dosis-font);
-        font-size: 35px;
-    }
-
-    .footer-back {
-        height: 314px;
-        width: 100%;
-        background-color: var(--footer-color1);
-        margin-top: 30px;
-        display: flex;
-    }
-
-    .linea-footer {
-
-        width: 389px;
-        height: 2px;
-        left: 5px;
-        top: 76px;
-        background: #0000004D;
-        ;
-    }
-
-    .img-footer {
-        width: 57px;
-        height: 53px;
-        margin-top: 5px;
-    }
-
-    .text-footer1 {
-        font-family: var(--dosis-font);
-    }
-
-    .text2-footer1 {
-       font-family: var(--dosis-font);
-    }
-
-    .footer-back2 {
-        display: none;
-       
     }
 
     .text-footer2 {
@@ -1442,10 +1264,6 @@ background:#0000004D;
 
     p.admin-profile-role-text {
         font-size: 2.2em;
-    }
-
-    p.admin-info-card-number {
-        font-size: 4em;
     }
 
     p.admin-info-card-text {
@@ -1519,7 +1337,307 @@ background:#0000004D;
 
     p.student-subject-title {
         font-family: var(--dosis-font);
+        font-size: 3em;
+        font-weight: bold;
+    }
+
+    p.student-task-title {
+        font-family: var(--dosis-font);
+        font-size: 3.5em;
+        font-weight: 500;
+    }
+
+    p.student-task-text {
+        font-family: var(--dosis-font);
+        font-size: 2em;
+        font-weight: 400;
+    }
+
+    p.student-task-aproved {
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    p.student-task-reproved {
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: bold;
+    }
+
+    p.footer-button {
+        font-family: var(--dosis-font);
+        font-size: 2.5em;
+        font-weight: 500;
+    }
+
+    p.copyright-text {
+        font-family: var(--dosis-font);
+        font-size: 2em;
+        font-weight: 400;
+    }
+    h2.admin-profile-title {
+        font-family: var(--dosis-font);
+        font-size: 3em;
+        font-weight: 500;
+    }
+
+    p.admin-profile-role-text {
+        font-family: var(--playfair-font);
+        font-size: 1.5em;
+    }
+
+
+    .container-list {
+      width:100%;
+        justify-content: center;
+    }
+
+    summary {
+        list-style: none;
+    }
+
+    details.diplomado1 {
+        margin-top: -20px;
+    }
+
+    details.diplomado1 {
+        background-color: #DDDDDD;
+        width: 100%;
+        height: 118px;
+        margin-top: 18px;
+        cursor: pointer;
+    }
+
+    details.estudiante1 {
+        margin-top: 80px;
+    }
+
+    .list-dip-text {
+      width:90%;
+        height: 59px;
+        font-family: var(--dosis-font);
+        font-size: 40px;
+    }
+
+    .flechita {
+        background-color: #FFFFFF;
+        width: 30px;
+        height: 3px;
+        transform: rotate(45deg);
+        position: relative;
+        top: -15px;
+        left: 523px;
+
+    }
+
+    .flechita2 {
+        background-color: #FFFFFF;
+        width: 30px;
+        height: 3px;
+        transform: rotate(135deg);
+        position: relative;
+        top: -18px;
+        left: 543px;
+    }
+
+    /*==========DIPLOMADO GESTION Y DERECHO==========*/
+    .diplomado-1 {
+        width: 396px;
+        height: 73px;
+        background-color: var(--back-general-info);
+    }
+
+    .diplomado1-text {
+        height: 73px;
+        position: absolute;
+    }
+
+    .list-dip-text {
+        font-family: var(--dosis-font);
+        color: #FFFFFF;
+        font-size: 40px;
+    }
+
+    .text-diego {
+        font-family: var(--dosis-font);
+        font-size: 35px;
+        color: #FFFFFF;
+    }
+
+    .dip1-text {
+        font-family: var(--dosis-font);
+        font-size: 35px;
+
+    }
+
+    .flechita-dip1 {
+        background-color: #00000080;
+        width: 30px;
+        height: 3px;
+        transform: rotate(45deg);
+        position: relative;
+        top: 55px;
+        left: 523px;
+
+    }
+
+    .flechita2-dip1 {
+        background-color: #00000080;
+        width: 30px;
+        height: 3px;
+        transform: rotate(135deg);
+        position: relative;
+        top: 53px;
+        left: 542px;
+    }
+
+    .linea-dip {
+        position: absolute;
+        width: 369px;
+        height: 1px;
+        left: 33px;
+        top: 150px;
+        background: #FFFFFF;
+    }
+
+
+    .estudiante1 {
+        width: 617px;
+        height: 139px;
+        background-color: var(--back-elementos-sel);
+        margin-top: 100px;
+        border-radius: 10px;
+        justify-items: center;
+        color: #FFFFFF;
+        text-justify: center;
+        font-family: var(--dosis-font);
+        font-size: 35px;
+    }
+
+    .linea-est1 {
+        position: relative;
+        width: 600px;
+        height: 1px;
+        left: 10px;
+        top: 85px;
+        background: #FFFFFF;
+    }
+
+    .estudiante2 {
+        width: 617px;
+        height: 134px;
+        background-color: #FFFFFF;
+        margin-top: 10px;
+        border-radius: 10px;
+        margin-bottom: 15px;
+        font-family: var(--dosis-font);
+        font-size: 35px;
+    }
+
+    .footer-back {
+        height: 220px;
+        width: 100%;
+
+        margin-top: 30px;
+    }
+
+    .text-footer1 {
+        font-family: var(--dosis-font);
+    }
+
+    .barra-vert {
+        width: 40px;
+        max-width: 40px;
+        height: 300px;
+    }
+
+    .barra-hort {
+        width: 270px;
+        height: 32px;
+        max-height: 32px;
+    }
+
+    h2.admin-profile-title {
+        font-size: 5em;
+    }
+
+    p.admin-profile-role-text {
+        font-size: 2.2em;
+    }
+
+    p.admin-info-card-text {
+        font-size: 2em;
+    }
+
+    p.graduates-list-title {
         font-size: 4em;
+    }
+
+    p.gratuates-list-text {
+        font-size: 3.5em;
+    }
+
+    p.chart-text {
+        font-size: 3.5em;
+        font-weight: 500;
+    }
+
+    p.chart-title {
+        font-size: 4em;
+    }
+
+    p.bar-chart-title {
+        font-size: 3.5em;
+    }
+
+    p.bar-chart-dates {
+        font-size: 1.5em;
+        font-weight: bold;
+    }
+
+    p.bar-chart-numbers {
+        font-size: 1.5em;
+        font-weight: 500;
+    }
+
+    p.animic-evolution-title {
+        font-size: 3em;
+    }
+
+    p.animic-evolution-porsentage {
+        font-size: 4.5em;
+    }
+
+    p.activity-chart-title {
+        font-size: 3.5em;
+    }
+
+    p.activity-chart-subtitle {
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    p.activity-chart-text {
+        font-size: 2em;
+        font-weight: 500;
+    }
+
+    p.activity-chart-number {
+        font-size: 2.5em;
+    }
+
+    p.pie-chart-n1 {
+        font-size: 1.7em;
+    }
+
+    p.pie-chart-n2 {
+        font-size: 1.7em;
+    }
+
+    p.student-subject-title {
+        font-family: var(--dosis-font);
+        font-size: 3em;
         font-weight: bold;
     }
 
@@ -1570,31 +1688,21 @@ background:#0000004D;
 
     #container-listas{
         background-color: #69BF97;
-        width: 758px;
-        height: 809px;
-        height: 370px;
+        width: 100%;
+        height: 400px;
         display: grid;
         justify-content: center;
+
     }
 
     .container-list {
+      
         justify-content: center;
+
     }
 
     summary {
         list-style: none;
-    }
-
-    details.lista-diplomados {
-        background-color: #009458;
-        width: 396px;
-        height: 59px;
-        margin-top: 15px;
-        cursor: pointer;
-    }
-
-    details.lista-diplomados summary {
-        margin-left: 15px;
     }
 
     details.dip1-text summary {
@@ -1610,7 +1718,6 @@ background:#0000004D;
 
     details.diplomado1 {
         background-color: #DDDDDD;
-        width: 396px;
         height: 73px;
         margin-top: 18px;
         cursor: pointer;
@@ -1620,14 +1727,7 @@ background:#0000004D;
         margin-top: 80px;
     }
 
-    .lista-diplomados {
-        width: 396px;
-        height: 59px;
-        background-color: var(--back-elementos-sel);
-    }
-
-    .list-dip-text {
-        width: 396px;
+   .list-dip-text {
         font-family: var(--dosis-font);
         font-size: 40px;
     }
@@ -1661,7 +1761,6 @@ background:#0000004D;
     }
 
     .diplomado1-text {
-        width: 396px;
         height: 73px;
         position: absolute;
     }
@@ -1699,6 +1798,17 @@ background:#0000004D;
         left: 335px;
     }
 
+  .footer-back {
+    height: 250px;
+    width: 100%;
+    background-color: var(--footer-color1);
+    margin-top: 30px;
+}
+  .text1-footer2 {
+    margin-top: 3%;
+    margin-left: 30%;
+    font-size: 150%;
+}
     .linea-dip {
         position: absolute;
         width: 369px;
@@ -1706,30 +1816,6 @@ background:#0000004D;
         left: 33px;
         top: 100px;
         background: #FFFFFF;
-    }
-
-    .img-est {
-        width: 65px;
-        height: 65px;
-        border-radius: 100%;
-    }
-
-    .img-est1 {
-        width: 100%;
-        height: 100%;
-        border-radius: 100%;
-        margin-left: 280px;
-        margin-top: -26px;
-
-    }
-
-    .img-est2 {
-        width: 100%;
-        height: 100%;
-        border-radius: 100%;
-        margin-left: 280px;
-        margin-top: -26px;
-
     }
 
     .estudiante1 {
@@ -1773,58 +1859,12 @@ background:#0000004D;
         font-family: var(--dosis-font);
         font-size: 25px;
         color: #FFFFFF;
-        margin: auto
     }
 
     .estudiante2-text {
         width: 396px;
         height: 73px;
         position: absolute;
-    }
-
-    .footer-back {
-        width: 100%;
-        height: 137px;
-        background-color: var(--footer-color1);
-        margin-top: 30px;
-        display: flex;
-    }
-    
-    .linea-footer{
-    
-    width: 389px;
-    height: 2px;
-    left: 5px;
-    top: 76px;
-    background:#0000004D;
-    ;
-    }
-    .img-footer{
-        width: 57px;
-        height: 53px;
-        position: relative;
-        left: 200px;
-        top: 20px;
-    }
-    
-    .text-footer1{
-        display: none;
-    }
-    
-    .text2-footer1{
-        position: relative;
-        top: 90px;
-        left: 90px;
-    }
-    
-    .footer-back2{
-        background-color: var(--footer-color2);
-        width: 428px;
-        height:34px ;
-    }
-    
-    .text-footer2{
-    color: #e8e8e8;
     }
 
     .barra-vert{
@@ -1844,9 +1884,6 @@ background:#0000004D;
         font-size: 2.2em;
     }
 
-    p.admin-info-card-number{
-        font-size: 4em;
-    }
     p.admin-info-card-text{
         font-size: 2em;
     }
@@ -1909,7 +1946,7 @@ background:#0000004D;
 
     p.student-subject-title{
         font-family: var(--dosis-font);
-        font-size: 4em;
+        font-size: 3em;
         font-weight: bold;
     }
     p.student-task-title{
@@ -2102,938 +2139,40 @@ margin: auto 5% ;
         margin-top: 15px;
         
     }
+    div.task-card{
+        height: 20%;
+    }
+    div.task-card p.student-task-aproved{
+      color: #00c200;
+    }
+    div.face3 p.student-task-reproved{
+      color: #cc0000;
+    }
+    div.activity-card-face{
+        margin: 2em;
+    }
+    .face{
+        font-size: 3px;
+    }
+
+  .lista-diplomados{
+    width:100%;
+  }
+  .list-dip-text{
+    width:768px;
+  }
+  .dip1-text{
+    width:768px;
+  }
+.estudianteclass{
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
 }
 
 /*==========DESKTOP==========*/
-@media (min-width: 1024px){
-    h2.admin-profile-title{
-        font-size: 3.5em;
-    }
-    p.admin-profile-role-text{
-        font-size: 2em;
-    }
 
-    .barra-vert{
-        width: 43px ;
-        max-width: 43px;
-        height:300px;
-    }
-    .barra-vert{
-        width: 35px ;
-        max-width: 35px;
-        height:300px;
-    }
-    p.admin-info-card-number{
-        font-family: var(--dosis-font);
-        font-size: 3em;
-    }
-    p.admin-info-card-text{
-        font-family: var(--dosis-font);
-        font-size: 1.5em;
-    }
 
-    p.graduates-list-title{
-        font-size: 3em;
-    }
-    p.gratuates-list-text{
-        font-size: 2em;
-    }
-
-    p.chart-text{
-        font-size: 3em;
-    }
-    p.chart-title{
-        font-size: 3.5em;
-    }
-
-    p.bar-chart-title{
-        font-size: 2.5em;
-    }
-    p.bar-chart-dates{
-        font-size: 1.5em;
-        font-weight: bold;
-    }
-    p.bar-chart-numbers{
-        font-size: 1.5em;
-        font-weight: 500;
-    }
-
-    p.animic-evolution-title{
-        font-size: 3em;
-    }
-    p.animic-evolution-porsentage{
-        font-size: 7em;
-    }
-
-    p.activity-chart-title{
-        font-size: 3em;
-    }
-    p.activity-chart-subtitle{
-        font-size: 1.5em;
-        font-weight: 500;
-    }
-    p.activity-chart-text{
-        font-size: 1.5em;
-        font-weight: 500;
-    }
-    p.activity-chart-number{
-        font-size: 2.5em;
-    }
-
-    p.pie-chart-title{
-        font-size: 3em;
-    }
-    p.pie-chart-n1{
-        font-size: 3em;
-    }
-    p.pie-chart-n2{
-        font-size: 2.5em;
-    }
-
-    p.student-subject-title{
-        font-family: var(--dosis-font);
-        font-size: 2.5em;
-        font-weight: bold;
-    }
-    p.student-task-title{
-        font-family: var(--dosis-font);
-        font-size: 2.5em;
-        font-weight: 500;
-    }    
-    p.student-task-text{
-        font-family: var(--dosis-font);
-        font-size: 1.2em;
-        font-weight: 400;
-    }
-    p.student-task-aproved{
-        font-family: var(--dosis-font);
-        font-size: 2em;
-        font-weight: bold;
-    }
-    p.student-task-reproved{
-        font-family: var(--dosis-font);
-        font-size: 2em;
-        font-weight: bold;
-    }
-
-    p.footer-button{
-        font-family: var(--dosis-font);
-        font-size: 3em;
-        font-weight: 500;
-    }
-    p.copyright-text{
-        font-family: var(--dosis-font);
-        font-size: 2.5em;
-        font-weight: 400;
-    }
-
-    div.task-cards-section{
-        width: 50%;
-    }
-
-    
-    /*Maria Daza profile section (ADMIN)*/
-    div.admin-profile-panel-container{
-        gap: 0;
-        background-color: var(--back-general-info);
-    }
-    div.admin-profile-card{
-        border-radius: 0;
-        width: 33%;
-        justify-content: center;
-        flex-direction: column;
-    }
-
-    .linea-footer {
-
-        width: 480px;
-        height: 2px;
-        background: #0000004D;
-        margin-top: -10px;
-    }
-
-    .img-footer {
-        width: 57px;
-        height: 53px;
-        margin-left: 200px;
-        margin-top: 10px;
-        
-    }
-
-    .text-footer1 {
-        font-family: var(--dosis-font);
-    }
-
-    .text2-footer1 {
-      font-family: var(--dosis-font);
-      font-size: 20px;
-      margin-left: 100px;
-    }
-
-    .footer-back2 {
-        background-color: var(--footer-color2);
-        width: 100%;
-        height: 34px;
-    }
-
-    .text-footer2 {
-        color: #e8e8e8;
-        margin-top: 0px;
-        margin-left: 140px;
-    }
-    .info-footer{
-        justify-content: center;
-        height: 400px;
-    }
-
-
-details.diplomado1 {
-    background-color: #DDDDDD;
-    width: 388px;
-    height: 44px;
-    margin-top: -30px;
-    cursor: pointer;
-}
-
-details.estudiante1{
-   margin-top: 80px;
-}
-.lista-diplomados{
-   width: 396px;
-   height: 59px;
-   background-color: var(--back-elementos-sel);
-}
-
-.list-dip-text{
-   width: 396px;
-   font-family: var(--dosis-font);
-   font-size: 40px;
-}
-.flechita{
-   background-color: #FFFFFF;
-   width:20px ;
-   height: 3px;
-   transform: rotate(45deg);
-   position: relative;
-   top: -42px;
-   left: 323px;
-
-}
-.flechita2{
-   background-color: #FFFFFF;
-   width:20px ;
-   height: 3px;
-   transform: rotate(135deg);
-   position: relative;
-   top: -45px;
-   left: 335px;
-}
-
-/*==========DIPLOMADO GESTION Y DERECHO==========*/
-.diplomado-1{
-width: 396px;
-height: 73px;
-background-color: var(--back-general-info);
-}
-
-.diplomado1-text{
-width: 396px;
-height: 73px;
-position: absolute;
-}
-
-.list-dip-text{
-font-family: var(--dosis-font);
-color: #FFFFFF;
-font-size: 30px;
-}
-
-.dip1-text{
-    font-family: var(--dosis-font);
-    font-size: 25px;
-      
-}
-.flechita-dip1{
-background-color: #00000080;
-width:20px ;
-height: 3px;
-transform: rotate(45deg);
-position: relative;
-top: 10px;
-left: 323px;
-
-}
-.flechita2-dip1{
-background-color: #00000080;
-width:20px ;
-height: 3px;
-transform: rotate(135deg);
-position: relative;
-top: 7px;
-left: 335px;
-}
-
-.linea-dip{
-position: absolute;
-width: 369px;
-height: 1px;
-left: 33px;
-top: 100px;
-background: #FFFFFF;
-}
-
-.img-est{
-    width: 45px;
-    height: 45px;
-    border-radius: 100%;
-}
-
-.img-est1{
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    margin-left: 280px;
-    margin-top: 5px;
-
-}
-
-.img-est2{
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    margin-left: 280px;
-    margin-top: 5px;
-
-}
-
-.estudiante1{
-width: 337px;
-height: 62px;
-background-color: var(--back-elementos-sel);
-margin-top: 50px;
-margin-left: 23px;
-border-radius: 10px;
-justify-items: center;
-color: #FFFFFF;
-text-justify: center;
-font-family: var(--dosis-font);
-font-size: 25px;
-}
-.linea-est1{
-position: relative;
-width: 305px;
-height: 1px;
-left: 5px;
-top: 27px;
-background: #FFFFFF;
-}
-
-.estudiante2{
-width: 337px;
-height: 62px;
-background-color: #FFFFFF;
-margin-top: 10px;
-margin-left: 23px;
-border-radius: 10px;
-margin-bottom: 15px;
-font-family: var(--dosis-font);
-font-size: 25px;
-}
-.text-diego{
-font-family: var(--dosis-font);
-font-size: 25px;
-color: #FFFFFF;
-margin:auto
-}
-
-.estudiante2-text{
-width: 396px;
-height: 73px;
-position: absolute;
-}
-
-.footer-back{
-    width:428px;
-    height: 137px;
-    background-color: var(--footer-color1);
-    margin-top: 30px;
-    display: flex;
-}
-
-.linea-footer{
-
-width: 389px;
-height: 2px;
-left: 5px;
-top: 76px;
-background:#0000004D;
-
-}
-.img-footer{
-    width: 57px;
-    height: 53px;
-    position: relative;
-    left: 200px;
-    top: 20px;
-}
-
-.text-footer1{
-    display: none;
-}
-
-.text2-footer1{
-    position: relative;
-    top: 90px;
-    left: 90px;
-}
-
-.footer-back2{
-    background-color: var(--footer-color2);
-    width: 428px;
-    height:34px ;
-}
-
-.text-footer2{
-   color: #e8e8e8;
-}
-
-.header{
-    width: 428px;
-    height: 169px;
-    background-color: var(--back-elementos-sel);
-    border-radius:  0px 0px 16px 16px;
-    margin-top: 0px;
-}
-
-.graph-promedio{
-    text-align: center;
-    width: 100%;
-}
-
-.graph-promedio .chart-text{
-    font-size: 2.5em;
-    color: #808080;
-    
-}
-.graph-promedio .chart-title{
-    font-size: 2.7em;
-    color: var(--green-color);
-    font-weight: bold;
-}
-.graph-promedio .bien{
-    color: var(--ojos-boca);
-    font-size: 3.5em;
-    margin-top: -10px;
-    margin-bottom: 50px;
-}
-.donut{
-    margin: auto;
-    margin-top: 20px ;
-    width: 70%;
-    height: 100%;
-}
-.graph-promedio .abs{
-    font-size: 3em;
-    color: white;
-    position: absolute;
-    padding: 25px 15px;
-    background-color: #1F8D16;
-    border-radius: 50%;
-    margin-left: 5%;
-    margin-top: 15px;
-    
-}
-.graph-promedio2{
-    display: block;
-    grid-area: 1/1/4/4;
-    text-align: center;
-    border-radius: 18px;
-    border: #D9D9D9 1px solid;
-    text-align: center;
-}
-.dashboard{
-    gap: 15px;
-    display: grid;
-    grid-template: repeat(5,1fr) / repeat(5,1fr);
-    gap:5px ;
-
-}
-.historial-grafica{
-    grid-area: 4/1/6/4;
-}
-.evolucion-grafica{
-    grid-area: 1 / 4 / 2 / 6 ;
-}
-.faltantes-grafica{
-    grid-area: 2 / 4/ 3 / 6 ;
-}
-.circular-grafica{
-    grid-area: 3/4/6/6;
-    padding: 0;
-}
-.solo-barras-circular{
-    margin-top: 15%;
-
-}
-
-.grafico-circ{
-    height: 180px;
-    width: 180px;
-    border-radius: 50%;
-    margin: 15% auto  0px auto;
-}
-.graph-promedio{
-    display: none;
-}
-.graph-promedio2 .chart-text{
-    font-size: 2.5em;
-    margin-top: 2%;
-    color: #808080;
-    
-}
-.graph-promedio2 .chart-title{
-    font-size: 2.7em;
-    color: var(--green-color);
-    font-weight: bold;
-}
-.graph-promedio2 .bien{
-    color: var(--ojos-boca);
-    font-size: 3.5em;
-    margin-top:-23%;
-    margin-bottom: 50px;
-}
-.donut{
-    margin: auto;
-    margin-top: 20px ;
-    width: 70%;
-    height: 100%;
-}
-.graph-promedio2 .abs{
-    font-size: 3em;
-    color: white;
-    position: absolute;
-    padding: 25px 15px;
-    background-color: #1F8D16;
-    border-radius: 50%;
-    margin-left: 5%;
-    margin-top: 15px;
-    
-}
-.face{
-    font-size: 5px;
-}
-h2.admin-profile-title {
-    font-size: 3.5em;
-}
-
-p.admin-profile-role-text {
-    font-size: 2em;
-}
-
-.barra-vert {
-    width: 43px;
-    max-width: 43px;
-    height: 300px;
-}
-
-.barra-vert {
-    width: 35px;
-    max-width: 35px;
-    height: 300px;
-}
-
-p.admin-info-card-number {
-    font-family: var(--dosis-font);
-    font-size: 3em;
-}
-
-p.admin-info-card-text {
-    font-family: var(--dosis-font);
-    font-size: 1.5em;
-}
-
-p.graduates-list-title {
-    font-size: 3em;
-}
-
-p.gratuates-list-text {
-    font-size: 2em;
-}
-
-p.chart-text {
-    font-size: 3em;
-}
-
-p.chart-title {
-    font-size: 3.5em;
-}
-
-p.bar-chart-title {
-    font-size: 2.5em;
-}
-
-p.bar-chart-dates {
-    font-size: 1.5em;
-    font-weight: bold;
 }
-
-p.bar-chart-numbers {
-    font-size: 1.5em;
-    font-weight: 500;
-}
-
-p.animic-evolution-title {
-    font-size: 3em;
-}
-
-p.animic-evolution-porsentage {
-    font-size: 7em;
-}
-
-p.activity-chart-title {
-    font-size: 3em;
-}
-
-p.activity-chart-subtitle {
-    font-size: 1.5em;
-    font-weight: 500;
-}
-
-p.activity-chart-text {
-    font-size: 1.5em;
-    font-weight: 500;
-}
-
-p.activity-chart-number {
-    font-size: 2.5em;
-}
-
-p.pie-chart-title {
-    font-size: 3em;
-}
-
-p.pie-chart-n1 {
-    font-size: 3em;
-}
-
-p.pie-chart-n2 {
-    font-size: 2.5em;
-}
-
-p.student-subject-title {
-    font-family: var(--dosis-font);
-    font-size: 2.5em;
-    font-weight: bold;
-}
-
-p.student-task-title {
-    font-family: var(--dosis-font);
-    font-size: 2.5em;
-    font-weight: 500;
-}
-
-p.student-task-text {
-    font-family: var(--dosis-font);
-    font-size: 1.2em;
-    font-weight: 400;
-}
-
-p.student-task-aproved {
-    font-family: var(--dosis-font);
-    font-size: 2em;
-    font-weight: bold;
-}
-
-p.student-task-reproved {
-    font-family: var(--dosis-font);
-    font-size: 2em;
-    font-weight: bold;
-}
-
-p.footer-button {
-    font-family: var(--dosis-font);
-    font-size: 3em;
-    font-weight: 500;
-}
-
-p.copyright-text {
-    font-family: var(--dosis-font);
-    font-size: 2.5em;
-    font-weight: 400;
-}
-
-div.task-cards-section {
-    width: 50%;
-}
-
-h2.admin-profile-title {
-    font-family: var(--dosis-font);
-    font-size: 3em;
-    font-weight: 500;
-}
-
-p.admin-profile-role-text {
-    font-family: var(--playfair-font);
-    font-size: 1.5em;
-}
-
-#container-listas {
-    background-color: #69BF97;
-    width: 389px;
-    height: 662px;
-    display: grid;
-    justify-content: center;
-}
-
-.container-list {
-    justify-content: center;
-}
-
-summary {
-    list-style: none;
-}
-
-details.lista-diplomados {
-    background-color: #009458;
-    width: 388px;
-    height: 44px;
-    cursor: pointer;
-}
-
-details.lista-diplomados summary {
-    margin-left: 15px;
-}
-
-details.dip1-text summary {
-    margin-top: 10px;
-    margin-left: 15px;
-}
-
-details.dip1-text summary {
-    margin-top: 2px;
-    text-justify: center;
-    text-align: center;
-}
-
-
-details.diplomado1 {
-    background-color: #DDDDDD;
-    width: 388px;
-    height: 44px;
-    margin-top: -30px;
-    cursor: pointer;
-}
-
-details.estudiante1 {
-    margin-top: 80px;
-}
-
-.lista-diplomados {
-    width: 396px;
-    height: 59px;
-    background-color: var(--back-elementos-sel);
-}
-
-.list-dip-text {
-    width: 396px;
-    font-family: var(--dosis-font);
-    font-size: 40px;
-}
-
-.flechita {
-    background-color: #FFFFFF;
-    width: 20px;
-    height: 3px;
-    transform: rotate(45deg);
-    position: relative;
-    top: -42px;
-    left: 323px;
-
-}
-
-.flechita2 {
-    background-color: #FFFFFF;
-    width: 20px;
-    height: 3px;
-    transform: rotate(135deg);
-    position: relative;
-    top: -45px;
-    left: 335px;
-}
-
-/*==========DIPLOMADO GESTION Y DERECHO==========*/
-.diplomado-1 {
-    width: 396px;
-    height: 73px;
-    background-color: var(--back-general-info);
-}
-
-.diplomado1-text {
-    width: 396px;
-    height: 73px;
-    position: absolute;
-}
-
-.list-dip-text {
-    font-family: var(--dosis-font);
-    color: #FFFFFF;
-    font-size: 30px;
-}
-
-.dip1-text {
-    font-family: var(--dosis-font);
-    font-size: 25px;
-
-}
-
-.flechita-dip1 {
-    background-color: #00000080;
-    width: 20px;
-    height: 3px;
-    transform: rotate(45deg);
-    position: relative;
-    top: 10px;
-    left: 323px;
-
-}
-
-.flechita2-dip1 {
-    background-color: #00000080;
-    width: 20px;
-    height: 3px;
-    transform: rotate(135deg);
-    position: relative;
-    top: 7px;
-    left: 335px;
-}
-
-.linea-dip {
-    position: absolute;
-    width: 369px;
-    height: 1px;
-    left: 33px;
-    top: 100px;
-    background: #FFFFFF;
-}
-
-.img-est {
-    width: 45px;
-    height: 45px;
-    border-radius: 100%;
-}
-
-.img-est1 {
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    margin-left: 280px;
-    margin-top: 5px;
-
-}
-
-.img-est2 {
-    width: 100%;
-    height: 100%;
-    border-radius: 100%;
-    margin-left: 280px;
-    margin-top: 5px;
-
-}
-
-.estudiante1 {
-    width: 337px;
-    height: 62px;
-    background-color: var(--back-elementos-sel);
-    margin-top: 50px;
-    margin-left: 23px;
-    border-radius: 10px;
-    justify-items: center;
-    color: #FFFFFF;
-    text-justify: center;
-    font-family: var(--dosis-font);
-    font-size: 25px;
-
-}
-
-.linea-est1 {
-    position: relative;
-    width: 305px;
-    height: 1px;
-    left: 5px;
-    top: 27px;
-    background: #FFFFFF;
-}
-
-.estudiante2 {
-    width: 337px;
-    height: 62px;
-    background-color: #FFFFFF;
-    margin-top: 10px;
-    margin-left: 23px;
-    border-radius: 10px;
-    margin-bottom: 15px;
-    font-family: var(--dosis-font);
-    font-size: 25px;
-}
-
-.text-diego {
-    font-family: var(--dosis-font);
-    font-size: 25px;
-    color: #FFFFFF;
-    margin: auto
-}
-
-.estudiante2-text {
-    width: 396px;
-    height: 73px;
-    position: absolute;
-}
-
-.container-footer1{
-    height: 160px;
-    justify-content: center;
-    background-color: var(--footer-color1);
-}
-
-.footer-back {
-    height: 329px;
-    width: 100%;
-    background-color: var(--footer-color1);
-    margin-top: 30px;
-    display: flex;
-}
-
-.linea-footer {
-
-    width: 389px;
-    height: 2px;
-    left: 5px;
-    top: 76px;
-    background: #0000004D;
-    ;
-}
-
-.img-footer {
-    width: 57px;
-    height: 53px;
-    position: relative;
-    left: 200px;
-    top: 20px;
-
-}
-.text2-footer1 {
-    position: relative;
-    top: 90px;
-    left: 90px;
-}
-
-.text-footer2 {
-    color: #e8e8e8;
-}
-
-
-
-}
-    
-
-
