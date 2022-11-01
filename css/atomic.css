@@ -1129,6 +1129,60 @@ background:#0000004D;
     div.face3 p.student-task-reproved{
         color: #cc0000;
     }
+    
+    /*eye animation*/
+    .eye{
+    animation-name: ojoslocos;
+    animation-duration: 5s ;
+    position: relative;
+}
+@keyframes ojoslocos{
+    0% {
+    left: 0px;
+    top: 0px;}
+
+
+    20%{
+    left: -10px;
+    top: 10px;}
+
+    60%{
+        left: 10px;
+
+        }
+
+    80%{
+        left: 10px;
+        top: -10px}
+
+        100%{
+            left: 0px;
+        top:0px;}
+}
+.mouth{
+    animation-name: boca;
+    animation-duration: 5s ;
+    position: relative;
+}
+esta es la de la flecha
+.flecha{
+    animation-name: flechanimacion;
+    animation-duration: 3s ;
+    position: relative;
+}
+@keyframes flechanimacion{
+    0% {
+        transform: scale(0);
+        bottom:-30px;
+    }
+
+
+    100% {
+        transform: scale(100%);
+        bottom: 0px;
+    }
+}
+
 }
 /*==========TABLETS==========*/
 @media (min-width: 768px) {
