@@ -42,7 +42,6 @@ Para ello, plantea que se desarrolle una aplicación web con varios dashboard, q
 -Realizar una demo para sustentar el proyecto
 
 
-
 # Prototipos.
 
 El diseño de los prototipos fue realizado con el manual de imagen suministrado por el cliente: 
@@ -59,11 +58,11 @@ https://www.figma.com/file/Jvj11uJ3PhRmnovkH3MHAM/Semillas---DASHBOARD?node-id=3
 
 # Documentacion tecnica.
 
-Entre los requerimientos propuestos por el cliente encontrabamos el uso e implemntacion del Git flow dentro del proceso de creacion y desarrollo del repositorio por lo que dentro del equipo de trabajo creamos tanto ramas personales como generales que nos permitieron realizar avances tanto individuales como cooperativos, a continuacion el git flow implemntado:
+Entre los requerimientos propuestos por el cliente encontrabamos el uso e implemntacion del Git flow durante el desarrollo del repositorio por lo que de manera interna creamos tanto ramas personales como generales, las cuales nos permitieron realizar avances tanto individuales como cooperativos, a continuacion el git flow implementado:
 
+![image](https://user-images.githubusercontent.com/114700033/199152165-81ba5fa7-c6e2-4722-acfd-e2ee08af0b3b.png)
 
-
-Dentro del desarrollo del proyecto se hizo uso del atomic design el cual nos permitio empezar por los elemntos mas pequeños e ir escalando de manera proporcional creando moleculas y organismos, por lo que iniciamos creando el index y las hojas de estilo destinados para esto, cada integrante del equipo se encargo de realizar un atomo, molecula y organismo diferente para que luego de hacer merge los mismos se encontraran a disposicion de quien los necesitara, las carpetas las distribuimos de la siguiente manera:
+Asi mismo durante el desarrollo del proyecto se hizo uso del atomic design el cual nos permitio empezar por los elemntos mas pequeños e ir escalando de manera proporcional creando moleculas y organismos, por lo que iniciamos creando el index y las hojas de estilo destinados para esto, cada integrante del equipo se encargo de realizar un atomo, molecula y organismo diferente para que luego de hacer merge los mismos se encontraran a disposicion de quien los necesitara, las carpetas las distribuimos de la siguiente manera:
 
 
 ![image](https://user-images.githubusercontent.com/114700033/199151524-94751197-ec6b-4c42-9e62-da3d95fd3619.png)
@@ -73,4 +72,22 @@ Dentro del desarrollo del proyecto se hizo uso del atomic design el cual nos per
 
 Un index para las secciones, finalizadas y aprovadas e igualmente, unahoja de estilos para atomos y otra para organismos y elementos en general.
 
+ASPECTOS GENERALES.
 
+![image](https://user-images.githubusercontent.com/114700033/199152556-5933f866-3dcd-440a-a8b7-9466d1f1f664.png)
+
+Para iniciar el proyecto la distribucion de las tareas y los pequeños aspectos fue fundamental,por lo que se decidio englobar los colores y fuentes dentro de variables que fueran mas faciles y rapidas de usar.
+
+Es importante recalcar que se hizo uso de procentajes y medidas estandar en algunos elemntos para que al momento de ser requeridas su manipulacion fuese mucho mas sencilla.
+
+![image](https://user-images.githubusercontent.com/114700033/199152806-483b43ef-87ee-4170-83a4-cb6bed2fe324.png)
+
+FIGURAS E ICONOS.
+
+Las figuras e iconos eran igualmente parte de los requerimientos que el cliente solicito por lo que dentro de su creacion y agrupacion nacieron las caras que darian vida a las emociones dentro del dashboard final, asi mismo otros iconos y figuras dentro del proyecto son:
+
+![image](https://user-images.githubusercontent.com/114700033/199153982-783cba42-1263-4f2c-b190-d123b43e36d2.png)
+![image](https://user-images.githubusercontent.com/114700033/199154431-a6bba177-7de0-46e0-b302-768685862069.png)
+![image](https://user-images.githubusercontent.com/114700033/199154556-7e0870b0-ce3c-4272-814a-30af6e800300.png)
+![image](https://user-images.githubusercontent.com/114700033/199154486-c3245eef-c562-4277-9861-fcca4a7dcee0.png)
+Cabe aclarar que lo que se mostro anteriormente fue dise;ado y maqueteado haciendo uso unicamente de CSS y HTML
