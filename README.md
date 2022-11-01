@@ -115,6 +115,14 @@ Las graficas fueron parte fundamental dentro del dashboard, se implemento un sis
 
 ![image](https://user-images.githubusercontent.com/114700033/199220287-79b3da64-e2ed-4d58-956f-44cfd3a71e26.png)
 
+![image](https://user-images.githubusercontent.com/114700033/199222140-111beeab-76b8-4090-acb2-0236c51d008a.png)
+
+![image](https://user-images.githubusercontent.com/114700033/199222196-4b824ea0-1629-4c42-91d5-a2787a3d9467.png)
+
+Los representaciones graficas, se dividieron en estado emocional y las tareas de cada estudiante desde un perfil administrativa, y tal y como se pudo evidenciar anteriormente iniciaron como atomos individuales, DE ESTA MANERA:
+
+![image](https://user-images.githubusercontent.com/114700033/199222666-133f5063-11aa-4655-b645-4ec630655c1f.png)
+
 
 SECCION LISTA DIPLOMADOS Y ALUMNOS.
 
