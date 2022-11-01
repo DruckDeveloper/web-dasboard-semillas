@@ -42,7 +42,6 @@ Para ello, plantea que se desarrolle una aplicación web con varios dashboard, q
 -Realizar una demo para sustentar el proyecto
 
 
-
 # Prototipos.
 
 El diseño de los prototipos fue realizado con el manual de imagen suministrado por el cliente: 
@@ -55,3 +54,71 @@ Se creo una sección al principio de la pagina para la version movil y tablet y 
 La version movil y de tablet contienen menus en la parte inferior siempre visibles para su navegación, mientras que en la version de escritorio es un menu flotante a la derecha.
 
 https://www.figma.com/file/Jvj11uJ3PhRmnovkH3MHAM/Semillas---DASHBOARD?node-id=35%3A214
+
+
+# Documentacion tecnica.
+
+Entre los requerimientos propuestos por el cliente encontrabamos el uso e implemntacion del Git flow durante el desarrollo del repositorio por lo que de manera interna creamos tanto ramas personales como generales, las cuales nos permitieron realizar avances tanto individuales como cooperativos, a continuacion el git flow implementado:
+
+![image](https://user-images.githubusercontent.com/114700033/199152165-81ba5fa7-c6e2-4722-acfd-e2ee08af0b3b.png)
+
+Asi mismo durante el desarrollo del proyecto se hizo uso del atomic design el cual nos permitio empezar por los elemntos mas pequeños e ir escalando de manera proporcional creando moleculas y organismos, por lo que iniciamos creando el index y las hojas de estilo destinados para esto, cada integrante del equipo se encargo de realizar un atomo, molecula y organismo diferente para que luego de hacer merge los mismos se encontraran a disposicion de quien los necesitara, las carpetas las distribuimos de la siguiente manera:
+
+
+![image](https://user-images.githubusercontent.com/114700033/199151524-94751197-ec6b-4c42-9e62-da3d95fd3619.png)
+
+![image](https://user-images.githubusercontent.com/114700033/199151681-9ca6c862-916c-4cf0-8345-c4ae926e3380.png)
+
+
+Un index para las secciones, finalizadas y aprovadas e igualmente, unahoja de estilos para atomos y otra para organismos y elementos en general.
+
+ASPECTOS GENERALES.
+
+![image](https://user-images.githubusercontent.com/114700033/199152556-5933f866-3dcd-440a-a8b7-9466d1f1f664.png)
+
+Para iniciar el proyecto la distribucion de las tareas y los pequeños aspectos fue fundamental,por lo que se decidio englobar los colores y fuentes dentro de variables que fueran mas faciles y rapidas de usar.
+
+Es importante recalcar que se hizo uso de procentajes y medidas estandar en algunos elemntos para que al momento de ser requeridas su manipulacion fuese mucho mas sencilla.
+
+![image](https://user-images.githubusercontent.com/114700033/199152806-483b43ef-87ee-4170-83a4-cb6bed2fe324.png)
+
+FIGURAS E ICONOS.
+
+Las figuras e iconos eran igualmente parte de los requerimientos que el cliente solicito por lo que dentro de su creacion y agrupacion nacieron las caras que darian vida a las emociones dentro del dashboard final, asi mismo otros iconos y figuras dentro del proyecto son:
+
+![image](https://user-images.githubusercontent.com/114700033/199153982-783cba42-1263-4f2c-b190-d123b43e36d2.png)
+![image](https://user-images.githubusercontent.com/114700033/199154431-a6bba177-7de0-46e0-b302-768685862069.png)
+![image](https://user-images.githubusercontent.com/114700033/199154556-7e0870b0-ce3c-4272-814a-30af6e800300.png)
+![image](https://user-images.githubusercontent.com/114700033/199154486-c3245eef-c562-4277-9861-fcca4a7dcee0.png)
+
+Cabe aclarar que lo que se mostro anteriormente fue diseñodo y maqueteado haciendo uso unicamente de CSS y HTML.
+
+RESPONSIVE.
+
+Desde el inicio el proyecto se planteo por parte del cliente como una pagina web- apliacion web adaptable, que respondiera de manera adecuada a cada dispostivo por el que pudiera acceder un alumno o directivo, es asi que decidimos usar las media query e implemntar diferentes puntos de quiebre, siendo estos:
+
+![image](https://user-images.githubusercontent.com/114700033/199155659-d7b476a0-f1ea-4633-9c5a-200fb36c8536.png)
+
+![image](https://user-images.githubusercontent.com/114700033/199155740-b97a0654-1433-417b-88a8-c3f341b3714c.png)
+
+![image](https://user-images.githubusercontent.com/114700033/199155812-a30e52f9-6b23-4f6c-b7cd-fd50db11ab00.png)
+
+
+DOCUMENTACION POR SECCIONES.
+
+SECCION GRAFICAS.
+
+
+SECCION LISTA DIPLOMADOS Y ALUMNOS.
+
+Para esta seccion se hizo uso de la etiqueta details y de su acompañante summary, ya que la seccion requeria de una propiedad que permitiera esconder y desplegar informacion de manera rapia y sencilla, un poco del codigo que se uso es:
+
+![image](https://user-images.githubusercontent.com/114700033/199157729-f34bf1b2-5c65-4a7a-b0c3-dd8a75a82b7e.png)
+
+![image](https://user-images.githubusercontent.com/114700033/199157993-2f6edb29-dfb3-4b34-a7b2-6f71acf55990.png)
+
+En este caso la informacion dentro de summary es la que el usuario visualiza aun sin abrir o dar click a la tarjeta, y la informacion adicioanl contenida dentro de details es la que se enconde y por ende la que recibe de manera directa el impacto de details, asi mismo se hizo uso de esta etiqueta porque tanto su implementacion como funcionalidad son bastante simples.
+
+# Animaciones
+
+
