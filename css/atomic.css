@@ -34,22 +34,11 @@
     --mejillas: #FFC0C0;
 
 }
-
-
-
-    /*==========BACKGROUND COLORS==========
-        LINEAS DE FONDO GRAFICA 1*/
-
-
 body {
     font-size: 10px;
     font-family: var(--dosis-font);
     width: 95%;
-}
-
-:root {
-    --dosis-font: 'Dosis', sans-serif;
-    --playfair-font: 'Playfair Display', serif;
+	overflow-x: hidden;
 }
 
 /*   ---  DONUT  ---   */
@@ -267,9 +256,15 @@ background-color: transparent;
 }
 
 /*==========ATOMIC SECTION==========*/
-
 /*==========SMARTPHONES==========*/
-@media (min-width: 480px) {
+@media (min-width: 320px) {
+  .face{
+    font-size:1.6px;
+  }
+  body{
+    font-size: 7px;
+  }
+
     .admin-info-card-number{
         font-size: 3em;
         font-weight: 600;
@@ -411,6 +406,923 @@ details.lista-diplomados{
   
    
 
+}
+
+details.lista-diplomados summary{
+    margin-left: 15px;
+}
+
+
+
+
+
+details.diplomado1 {
+    background-color: #DDDDDD;
+    width: 100%;
+    height: 73px;
+    margin-top: 18px;
+    cursor: pointer;
+}
+
+
+
+
+
+/*==========DIPLOMADO GESTION Y DERECHO==========*/
+.diplomado-1{
+width: 396px;
+height: 73px;
+background-color: var(--back-general-info);
+}
+
+.diplomado1-text{
+height: 73px;
+position: absolute;
+}
+
+  div.cards-asinatura-diplomado p {
+    margin: auto 1em;
+    font-family: var(--dosis-font);
+    font-size: 2em;
+    font-weight: 500;
+    margin-left: 15px;
+}
+
+.list-dip-text{
+  width:90%;
+font-family: var(--dosis-font);
+color: #FFFFFF;
+font-size: 30px;
+}
+
+  .text2-footer1{
+    margin: auto;
+    margin-top: 20px;
+    margin-left: 15%;
+    font-family: "Dosis";
+    font-size: 210%;
+}
+
+
+.linea-dip{
+position: absolute;
+width: 369px;
+height: 1px;
+left: 33px;
+top: 100px;
+background: #FFFFFF;
+}
+
+.img-est{
+
+    width: 65px;
+    height: 65px;
+    border-radius: 100%;
+}
+
+.img-est1{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.img-est2{
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+}
+
+.estudiante1{
+width: 90%;
+height: 83px;
+background-color: var(--back-elementos-sel);
+margin-top: 40px;
+margin-left: 33px;
+border-radius: 10px;
+justify-items: center;
+color: #FFFFFF;
+text-justify: center;
+font-family: var(--dosis-font);
+font-size: 25px;
+
+}
+
+
+.linea-est1 {
+    position: relative;
+    width: 356px;
+    height: 1px;
+    left: 5px;
+    top: 50px;
+    background: #FFFFFF;
+}
+
+.estudiante2{
+width: 90%;
+height: 83px;
+background-color: #FFFFFF;
+margin-top: 3px;
+margin-left: 33px;
+border-radius: 10px;
+margin-bottom: 15px;
+font-family: var(--dosis-font);
+font-size: 25px;
+}
+.text-dylan{
+height:100%;
+  margin-top:50px;
+font-family: var(--dosis-font);
+font-size: 25px;
+}
+.text-diego{
+  margin-top:50px;
+  height:100%;
+
+font-family: var(--dosis-font);
+
+font-size: 25px;
+color: #FFFFFF;
+}
+
+/*==========DIPLOMADO GESTION Y DERECHO==========*/
+    .diplomado-1{
+        width: 396px;
+        height: 73px;
+        background-color: var(--back-general-info);
+    }
+
+    .diplomado1-text{
+        height: 73px;
+        position: absolute;
+    }
+
+
+    .estudiante1-text{
+        width: 396px;
+        height: 73px;
+        position: absolute;
+    }
+    .linea-est1{
+        position: absolute;
+        width: 356px;
+        height: 1px;
+        left: 5px;
+        top: 76px;
+        background: #FFFFFF;
+    }
+
+
+.estudiante2-text{
+width: 396px;
+height: 73px;
+position: absolute;
+}
+
+.linea-footer{
+width: 100%;
+height: 2px;
+margin: auto;
+margin-top:20px ;
+background:#0000004D;
+}
+
+/*==========           GRID GRAFICOS              ==========*/
+/*
+.dashboard{
+    margin: auto;
+    width: 90px;
+    height: 780px;
+    display: grid;
+    grid-template: 1fr 200px 1fr / repeat(3,1fr);
+    gap:5px ;
+}
+.historial-grafica{
+    grid-column: 1/4;
+    grid-row: 1/2;
+}
+.circular-grafica{
+    grid-area: 3/1/4/4;
+}
+*/
+.graph-promedio2{
+    display: none;
+}
+.dashboard{
+    margin: auto;
+    width: 95%;
+    max-height:1000px;
+    display: grid;
+    grid-template: repeat(7,1fr) / repeat(3,1fr);
+    gap:5px ;
+}
+.historial-grafica{
+    grid-area: 1/1/4/4;
+}
+.evolucion-grafica{
+    grid-area: 4 / 1 / 6 / 2 ;
+}
+.faltantes-grafica{
+    grid-area: 4 / 2 / 6 / 4 ;
+}
+.circular-grafica{
+    grid-area: 6/1/8/4;
+}
+.graph-promedio{
+    text-align: center;
+    width: 100%;
+}
+
+.graph-promedio .chart-text{
+    font-size: 2.5em;
+    color: #808080;
+    
+}
+.graph-promedio .chart-title{
+    font-size: 2.7em;
+    color: var(--green-color);
+    font-weight: bold;
+}
+.graph-promedio .bien{
+    color: var(--ojos-boca);
+    font-size: 3.5em;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.donut{
+    margin: auto;
+    margin-top: 20px ;
+    width: 70%;
+    height: 100%;
+}
+.graph-promedio .abs{
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    padding: 25px 15px;
+    background-color: #1F8D16;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 15px;
+    
+}
+.graph-promedio2{
+    text-align: center;
+    width: 100%;
+}
+
+.graph-promedio2 .chart-text{
+    font-size: 2.5em;
+    color: #808080;
+    
+}
+.graph-promedio2 .chart-title{
+    font-size: 2.7em;
+    color: var(--green-color);
+    font-weight: bold;
+}
+.graph-promedio2 .bien{
+    color: var(--ojos-boca);
+    font-size: 3.5em;
+    margin-top: -10px;
+    margin-bottom: 50px;
+}
+.donut{
+    margin: auto;
+    margin-top: 20px ;
+    width: 70%;
+    height: 100%;
+}
+.graph-promedio2 .abs{
+    font-size: 3em;
+    color: white;
+    position: absolute;
+    padding: 25px 15px;
+    background-color: #1F8D16;
+    border-radius: 50%;
+    margin-left: 5%;
+    margin-top: 15px;
+    
+}
+/*     ---     HISTORIAL GRAFICO FINAL    ----    */
+
+.historial-grafica{
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    border: #D9D9D9 1px solid;
+    text-align: center;
+}
+.cont-barra{   
+    width: 92%;
+    height: 70%;
+    margin: 10px 5px 0px 4%;
+    margin-top: 0%;
+}
+
+.historial-grafica .bar-chart-title{
+    font-size: 2.5em;
+    margin: 5px 0px;
+    color: #808080;
+
+}
+.cont-barra-vert{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    width: 90%;
+    height: 100%;
+    
+}
+.barra-vert1{
+    width: 40px ;
+    max-width: 40px;
+    height:44.5%;
+    border-radius: 7px;
+    background-color: var(--orange-color);
+    margin: 0px 10px;
+}
+.barra-vert2{
+    width: 40px ;
+    max-width: 40px;
+    height:92%;
+    border-radius: 7px;
+    background-color: var(--green-color);
+    margin: 0px 10px;
+}
+.barra-vert3{
+    width: 40px ;
+    max-width: 40px;
+    height:58%;
+    border-radius: 7px;
+    background-color: var(--orange-color);
+    margin: 0px 10px;
+}
+.barra-vert4{
+    width: 40px ;
+    max-width: 40px;
+    height:36%;
+    border-radius: 7px;
+    background-color: var(--red-color);
+    margin: 0px 10px;
+}
+.barra-vert5{
+    width: 40px ;
+    max-width: 40px;
+    height:66%;
+    border-radius: 7px;
+    background-color: var(--green-color);
+    margin: 0px 10px;
+}
+.barra-vert6{
+    width: 40px ;
+    max-width: 40px;
+    height:92%;
+    border-radius: 7px;
+    background-color: var(--green-color);
+    margin: 0px 10px;
+}
+.fechas-historial{
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin-left: 13%;
+    margin-right: 0%;
+
+}
+
+/*     ---     EVOLUCION GRAFICO FINAL    ----    */
+.evolucion-text span{
+    display: none;
+}
+.evolucion-grafica{
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    border: #D9D9D9 1px solid;
+    text-align: center;
+
+}
+.evolucion-grafica .animic-evolution-title{
+    font-size: 2.5em;
+    margin: 5px 0px 15px 0px;
+    color: #808080;
+}
+.porcentaje{
+    margin: auto;
+    display: flex;
+    width: 100%;
+    height: 100px;
+    background-color: var(--green-color);
+    border-radius: 18px;
+    align-items: center;
+    justify-content: center;
+}
+.evolucion-grafica .animic-evolution-porsentage{
+    font-size: 3em;
+    color: white;
+    border-bottom: 5px solid white;
+    margin: 10px 0px 10px 0%; 
+}
+
+/*     ---     FALTANTES GRAFICO FINAL    ----    */
+
+.faltantes-grafica .activity-chart-title{
+    font-size: 2.5em;
+    margin: 5px 0px 0px 0px;
+    color: #808080;
+}
+.faltantes-grafica .activity-chart-subtitle{
+    font-size: 1.5em;
+    margin: 0px 0px 15px 0px;
+    color: #808080;
+}
+.faltantes-grafica{
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    border: #D9D9D9 1px solid;
+    text-align: center;
+}
+
+.faltantes-seccion-barras{
+    display: flex;
+    align-items: center;
+    height:40px;
+    margin-left: 10%;
+}
+.faltantes-seccion-barras .activity-chart-text {
+    font-size: 1.5em;
+    text-align: right;
+    width: 75px;
+}
+.faltantes-seccion-barras .activity-chart-number {
+    color: white;
+    position: absolute;
+    margin-left: 90px;
+    font-size: 2.0em;
+}
+.barra-hort1{
+    width: 155px ;
+    height:30px;
+    max-height:27px;
+    border-radius: 7px;
+    background-color: var(--green-color);
+    margin: 0px 10px;
+}
+.barra-hort2{
+    width: 100px ;
+    height:30px;
+    max-height:27px;
+    border-radius: 7px;
+    background-color: var(--orange-color);
+    margin: 0px 10px;
+}
+.barra-hort3{
+    width: 20px ;
+    height:30px;
+    max-height:27px;
+    border-radius: 7px;
+    background-color: var(--red-color);
+    margin: 0px 10px;
+}
+
+/*     ---     GRAFICO CIRCULAR FINAL    ----    */
+
+.circular-grafica{
+    border-radius: 18px;
+    width: 100%;
+    height: 100%;
+    border: #D9D9D9 1px solid;
+    text-align: center;
+}
+
+.circular-grafica .pie-chart-title{
+    font-size: 2.5em;
+    margin: 5px 0px 15px 0px;
+    color: #808080;
+    font-weight: 500;
+}
+.cont-graficos-circular{
+    display: flex;
+    justify-content: space-evenly;
+}
+.solo-barras-circular{
+    margin-top: 10px;
+}
+
+.solo-barras-circular .pie-chart-n1 {
+    font-size: 2em;
+    text-align: right;
+    color: #000000;
+    font-family: var(--dosis-font);
+    font-weight: 600 ;
+    width: 35px;
+    
+}
+.barra-hort4{
+    width: 30px ;
+    height:30px;
+    max-height:30px;
+    border-radius: 7px;
+    background-color: var(--red-color);
+    margin: 0px 10px;
+}
+.barra-hort5{
+    width: 45px ;
+    height:30px;
+    max-height:30px;
+    border-radius: 7px;
+    background-color: var(--orange-color);
+    margin: 0px 10px;
+}
+.barra-hort6{
+    width: 100px ;
+    height:30px;
+    max-height:30px;
+    border-radius: 7px;
+    background-color: var(--green-color);
+    margin: 0px 10px;
+}
+
+    .estudiante2-text{
+        width: 396px;
+        height: 73px;
+        position: absolute;
+    }
+    .linea-est2{
+        position: absolute;
+        width: 356px;
+        height: 1px;
+        left: 5px;
+        top: 76px;
+        background: #FFFFFF;
+    }
+
+    .diplomado-2{
+        width: 396px;
+        height: 78px;
+        background-color: var(--back-general-info);
+    }
+
+    .diplomado2-text{
+        width: 396px;
+        height: 78px;
+        position: absolute;
+    }
+    .flechita-dip2{
+        background-color: #00000080;
+        width:26px ;
+        height: 3px;
+        transform: rotate(38deg);
+        position: absolute;
+        top: 32px;
+        left: 328px;
+
+    }
+    .flechita2-dip2{
+        background-color: #00000080;
+        width:27px ;
+        height: 3px;
+        transform: rotate(320deg);
+        position: absolute;
+        top: 47px;
+        left: 328px;
+    }
+
+    /*Maria Daza profile section (ADMIN)*/
+    div.admin-profile-section{
+        width: 100%;
+        height: 18.5em;
+        color: var(--diplomados-color);
+        background-color: var(--back-general-info);
+        border-radius: 0 0 2em 2em;
+    }
+    div.admin-profile-img{
+        width: 20%;
+        height: 75%;
+        margin: auto 4em;
+    }
+    div.admin-profile-img img{
+        height: 100%;
+        border-radius: 10em;
+    }
+    div.admin-profile-header{
+        height: 11.9em;
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background-color: var(--header-color);
+        border-radius: 0 0 2em 2em;
+    }
+    div.admin-profile-section-text{
+        margin: auto 1.5em;
+    }
+    div.admin-profile-section h2, p{
+        margin: 0;
+      
+    }
+    div.admin-profile-panel-container{
+        width: 100%;
+        height: 8em;
+        display: flex;
+        text-align: center;
+        color: #000000;
+    }
+    div.admin-profile-card{
+        width: 33%;
+    }
+    div.admin-profile-panel-line{
+        width: .5%;
+        height: 45%;
+        margin: auto 0;
+        background-color: #000000;
+    }
+
+.img-footer{
+    width: 57px;
+    height: 53px;
+    margin: auto;
+    margin-left: 45%;
+    margin-top: 10px;
+  
+  }
+
+.text-footer1{
+    display: none;
+}
+  .text1-footer2{
+    margin-top: 4%;
+    margin-left: 27%;
+  }
+.flechita{
+    background-color: #FFFFFF;
+    width:20px ;
+    height: 3px;
+    transform: rotate(45deg);
+    position: relative;
+    top: -15px;
+    left: 323px;
+ 
+ }
+ .flechita2{
+    background-color: #FFFFFF;
+    width:20px ;
+    height: 3px;
+    transform: rotate(135deg);
+    position: relative;
+    top: -18px;
+    left: 335px;
+ }
+ .flechita-dip1{
+    background-color: #00000080;
+    width:20px ;
+    height: 3px;
+    transform: rotate(45deg);
+     margin-left: 320px;
+    top: -30px;
+     
+}
+.flechita2-dip1{
+    background-color: #00000080;
+    width:20px ;
+    height: 3px;
+    transform: rotate(135deg);
+    position: absolute;
+    top: 30px;
+    left: 335px;
+}
+  .flecha-diplomado-1{
+    margin-left:25px ;
+  }
+  .flecha-diplomado-2{
+    margin-top: 200px;
+  }
+  summary{
+    display:flex;
+    align-items:center;
+    
+  }
+    .dip1-text p{
+      
+        margin-top:15px;
+    }
+  .dip1-text{
+        font-size:2.5em;
+    }
+  .estudianteclass{
+  width:100%;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+}
+    
+    div.task-card p.student-task-aproved{
+        color: #00c200;
+      margin-left: 15px;
+      
+    }
+    div.face3 p.student-task-reproved{
+        color: #cc0000;
+    }
+    
+    /*eye animation*/
+    .eye{
+    animation-name: ojoslocos;
+    animation-duration: 5s;
+    position: relative;
+	animation-iteration-count: infinite;
+}
+@keyframes ojoslocos{
+    0% {
+    left: 0px;
+    top: 0px;}
+
+
+    20%{
+    left: -10px;
+    top: 10px;}
+
+    60%{
+        left: 10px;
+
+        }
+
+    80%{
+        left: 10px;
+        top: -10px}
+
+        100%{
+            left: 0px;
+        top:0px;}
+}
+.mouth{
+    animation-name: boca;
+    animation-duration: 5s ;
+    position: relative;
+}
+/*esta es la de la flecha*/ 
+.flecha{
+    animation-name: flechanimacion;
+    animation-duration: 3s ;
+    position: relative;
+	animation-iteration-count: infinite;
+}
+@keyframes flechanimacion{
+    0% {
+        transform: scale(0);
+        bottom:-30px;
+    }
+
+
+    100% {
+        transform: scale(100%);
+        bottom: 0px;
+    }
+
+}
+
+	
+
+
+
+
+/*==========SMARTPHONES==========*/
+@media (min-width: 480px) {
+  .face{
+    font-size:3px;
+  }
+    .admin-info-card-number{
+        font-size: 3em;
+        font-weight: 600;
+    }
+    p.admin-info-card-text {
+        font-size: 1.4em;
+        color: #5B5A5A
+    }
+    div.task-cards-section{
+        width: 100%;
+        background-color: #69BF97;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 20px;
+      margin-top: 40px;
+    }
+    div.task-cards-container{
+        width: 95%;
+        height: 95%;
+        background-color: #69BF97;
+        border-radius: 20px;
+    }
+    div.activities-flex-container{
+        display: flex;
+        flex-direction: column;
+    }
+    div.task-card{
+        display: flex;
+        width: 100%;
+        height: 25%;
+        background-color: #ffffff;
+        margin: 10px 0;
+    }
+    div.task-card div.task-card-text-container{
+        width: 70%;
+    }
+    div.task-card div.activity-card-face{
+        width: 30%;
+    }
+    div.cards-asinatura-diplomado{
+        width: 100%;
+        height: 5%;
+        margin: 1em 0;
+        background-color: #ffffff;
+        border-radius: 1em;
+    }
+    div.cards-asinatura-diplomado p{
+        margin: auto 1em;
+    }
+
+    h2.admin-profile-title {
+        font-family: var(--dosis-font);
+        font-size: 3em;
+        font-weight: 500;
+        width: 100%;
+    }
+
+  p.student-task-title {
+    font-family: var(--dosis-font);
+    font-size: 2.5em;
+    font-weight: 500;
+    margin-left: 15px;
+}
+  p.student-task-text {
+    font-family: var(--dosis-font);
+    font-size: 1.3em;
+    font-weight: 400;
+    margin-left: 15px;
+}
+
+    p.admin-profile-role-text {
+        font-family: var(--playfair-font);
+        font-size: 1.5em;
+    }
+
+    #container-listas {
+        background-color: #69BF97;
+        display: flex;
+        justify-content: center;
+        border-radius: 20px;
+        width: 100%;
+        height: 370px;
+        margin-bottom: 50px;
+    }
+    div.task-cards-container{
+        width: 95%;
+        height: 95%;
+        background-color: #ffffff;
+        border-radius: 20px;
+    }
+    div.task-card{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+        height: 165px;
+        background-color: #ffffff;
+        margin: 10px 0;
+        position: relative;
+    }
+    div.task-card-line{
+        height: 2px;
+        width: 90%;
+        background-color: #000000;
+        position: absolute;
+        top: 90%;
+    }
+    div.cards-asinatura-diplomado{
+        width: 100%;
+        height: 5%;
+    }
+    div.cards-asinatura-diplomado p{
+        margin: auto 1em;
+    }
+
+    /*==========LISTA DIPLOMADOS==========*/
+/*==========LISTA DIPLOMADOS==========*/
+.container-list{
+  width:100;
+    justify-content: center;
+}
+
+summary{
+   list-style: none;
+}
+details.lista-diplomados{
+    background-color: #009458;
+    width: 90%;
+    height: 59px;
+    margin: auto;
+    margin-top: 15px;
+    cursor: pointer;
 }
 
 details.lista-diplomados summary{
@@ -1121,10 +2033,9 @@ background:#0000004D;
   align-items:center;
 }
     
-    div.task-card p.student-task-aproved{
+    .student-task-aproved{
         color: #00c200;
-      margin-left: 15px;
-      
+      	margin-left: 15px;
     }
     div.face3 p.student-task-reproved{
         color: #cc0000;
@@ -2013,11 +2924,7 @@ esta es la de la flecha
         font-size: 2em;
         font-weight: 400;
     }
-    p.student-task-aproved{
-        font-family: var(--dosis-font);
-        font-size: 2.5em;
-        font-weight: bold;
-    }
+
     p.student-task-reproved{
         font-family: var(--dosis-font);
         font-size: 2.5em;
@@ -2230,3 +3137,58 @@ margin: auto 5% ;
 
 
 }
+
+p.student-task-aproved{
+		animation-name: animaproved;
+		animation-duration: 5s;
+		animation-iteration-count: infinite;
+    color:blue;
+	}
+    @keyframes animaproved {
+        0% {color: #1F8D16;}
+        25%{color: #F9B93E;}
+        50%{color: #009458;}
+        75%{color: #1F8D16;}
+        100%{color: #F9B93E;}
+        
+    }
+  p.student-task-reproved{
+          animation-name: shake-horizontal;
+          font-family: var(--dosis-font);
+          font-size: 2.5em;
+          font-weight: bold;
+          animation-delay: 4s;
+          animation-duration: 4s;
+          animation-iteration-count: 3;
+          -webkit-animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+          animation: shake-horizontal 0.8s cubic-bezier(0.455, 0.030, 0.515, 0.955) both;
+      }
+  
+  @keyframes shake-horizontal {
+          0%,
+          100% {
+            -webkit-transform: translateX(0);
+                    transform: translateX(0);
+          }
+          10%,
+          30%,
+          50%,
+          70% {
+            -webkit-transform: translateX(-10px);
+                    transform: translateX(-10px);
+          }
+          20%,
+          40%,
+          60% {
+            -webkit-transform: translateX(10px);
+                    transform: translateX(10px);
+          }
+          75% {
+            -webkit-transform: translateX(8px);
+                    transform: translateX(8px);
+          }
+          95% {
+            -webkit-transform: translateX(-8px);
+                    transform: translateX(-8px);
+          }
+      }
